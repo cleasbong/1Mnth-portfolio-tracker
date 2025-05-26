@@ -1,15 +1,11 @@
 {
-  "totalPnl": 40.74,
+  "totalPnl": 41.12,
   "winRate": 28.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T20:41:45.659067",
-  "entryTime": "2025-05-26T20:41:45.659067",
+  "lastUpdate": "2025-05-26T20:47:01.912568",
+  "entryTime": "2025-05-26T20:47:01.912568",
   "history": [
-    {
-      "time": "05/26 15:00",
-      "pnl": 36.31
-    },
     {
       "time": "05/26 15:05",
       "pnl": 54.48
@@ -205,6 +201,10 @@
     {
       "time": "05/26 20:41",
       "pnl": 40.74
+    },
+    {
+      "time": "05/26 20:47",
+      "pnl": 41.12
     }
   ],
   "positions": [
@@ -281,15 +281,6 @@
       "entryPrice": 116.0999984741211
     },
     {
-      "symbol": "ABX.TO",
-      "company": "Barrick Gold Corporation",
-      "type": "SHORT",
-      "return": 0.3,
-      "pnl": 6.59,
-      "currentPrice": 26.094999313354492,
-      "entryPrice": 26.18000030517578
-    },
-    {
       "symbol": "ENR.DE",
       "company": "Siemens Energy AG",
       "type": "SHORT",
@@ -297,6 +288,15 @@
       "pnl": 6.34,
       "currentPrice": 83.04000091552734,
       "entryPrice": 83.30000305175781
+    },
+    {
+      "symbol": "ABX.TO",
+      "company": "Barrick Gold Corporation",
+      "type": "SHORT",
+      "return": 0.3,
+      "pnl": 6.2,
+      "currentPrice": 26.100000381469727,
+      "entryPrice": 26.18000030517578
     },
     {
       "symbol": "AED.BR",
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.0,
-      "pnl": 0.18,
-      "currentPrice": 44.35454177856445,
+      "pnl": 0.66,
+      "currentPrice": 44.366798400878906,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.89,
-      "currentPrice": 171.92999267578125,
+      "pnl": -1.6,
+      "currentPrice": 171.9600067138672,
       "entryPrice": 172.1300048828125
     },
     {
