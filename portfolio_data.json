@@ -1,15 +1,11 @@
 {
-  "totalPnl": 70.47,
+  "totalPnl": 70.23,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T22:20:54.884092",
-  "entryTime": "2025-05-26T22:20:54.884092",
+  "lastUpdate": "2025-05-26T22:26:11.326984",
+  "entryTime": "2025-05-26T22:26:11.326984",
   "history": [
-    {
-      "time": "05/26 16:15",
-      "pnl": 3.61
-    },
     {
       "time": "05/26 16:20",
       "pnl": -0.21
@@ -205,6 +201,10 @@
     {
       "time": "05/26 22:20",
       "pnl": 70.47
+    },
+    {
+      "time": "05/26 22:26",
+      "pnl": 70.23
     }
   ],
   "positions": [
@@ -317,15 +317,6 @@
       "entryPrice": 17.40999984741211
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 0.98,
-      "currentPrice": 44.374881744384766,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "MRK.DE",
       "company": "MERCK KGaA",
       "type": "SHORT",
@@ -333,6 +324,15 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.0,
+      "pnl": 0.74,
+      "currentPrice": 44.36867904663086,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
