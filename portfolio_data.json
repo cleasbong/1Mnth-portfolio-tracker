@@ -1,10 +1,10 @@
 {
-  "totalPnl": 43.49,
+  "totalPnl": 45.43,
   "winRate": 28.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:27:08.410656",
-  "entryTime": "2025-05-26T18:27:08.410656",
+  "lastUpdate": "2025-05-26T18:32:25.422604",
+  "entryTime": "2025-05-26T18:32:25.422604",
   "history": [
     {
       "time": "05/26 13:58",
@@ -157,6 +157,10 @@
     {
       "time": "05/26 18:27",
       "pnl": 43.49
+    },
+    {
+      "time": "05/26 18:32",
+      "pnl": 45.43
     }
   ],
   "positions": [
@@ -228,8 +232,8 @@
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
       "return": 0.4,
-      "pnl": 7.75,
-      "currentPrice": 26.079999923706055,
+      "pnl": 8.53,
+      "currentPrice": 26.06999969482422,
       "entryPrice": 26.18000030517578
     },
     {
@@ -282,8 +286,8 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": 0.0,
-      "pnl": 0.28,
-      "currentPrice": 172.16000366210938,
+      "pnl": 0.19,
+      "currentPrice": 172.14999389648438,
       "entryPrice": 172.1300048828125
     },
     {
@@ -560,9 +564,9 @@
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": -0.1,
-      "pnl": -1.9,
-      "currentPrice": 44.30141830444336,
+      "return": -0.0,
+      "pnl": -0.64,
+      "currentPrice": 44.333499908447266,
       "entryPrice": 44.34989929199219
     },
     {
