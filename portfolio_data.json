@@ -1,15 +1,11 @@
 {
-  "totalPnl": 71.51,
+  "totalPnl": 72.08,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T22:52:31.560683",
-  "entryTime": "2025-05-26T22:52:31.560683",
+  "lastUpdate": "2025-05-26T22:57:47.834161",
+  "entryTime": "2025-05-26T22:57:47.834161",
   "history": [
-    {
-      "time": "05/26 16:46",
-      "pnl": 5.68
-    },
     {
       "time": "05/26 16:52",
       "pnl": 18.68
@@ -205,6 +201,10 @@
     {
       "time": "05/26 22:52",
       "pnl": 71.51
+    },
+    {
+      "time": "05/26 22:57",
+      "pnl": 72.08
     }
   ],
   "positions": [
@@ -308,6 +308,15 @@
       "entryPrice": 65.55000305175781
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.59,
+      "currentPrice": 44.41600036621094,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
@@ -315,15 +324,6 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.02,
-      "currentPrice": 44.40140151977539,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
