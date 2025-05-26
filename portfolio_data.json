@@ -1,15 +1,11 @@
 {
-  "totalPnl": 51.33,
+  "totalPnl": 54.03,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T19:58:31.285573",
-  "entryTime": "2025-05-26T19:58:31.285573",
+  "lastUpdate": "2025-05-26T20:03:51.835120",
+  "entryTime": "2025-05-26T20:03:51.835120",
   "history": [
-    {
-      "time": "05/26 14:31",
-      "pnl": 33.27
-    },
     {
       "time": "05/26 14:31",
       "pnl": 33.27
@@ -205,6 +201,10 @@
     {
       "time": "05/26 19:58",
       "pnl": 51.33
+    },
+    {
+      "time": "05/26 20:03",
+      "pnl": 54.03
     }
   ],
   "positions": [
@@ -239,9 +239,9 @@
       "symbol": "ABX.TO",
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
-      "return": 0.5,
-      "pnl": 10.86,
-      "currentPrice": 26.040000915527344,
+      "return": 0.6,
+      "pnl": 11.63,
+      "currentPrice": 26.030000686645508,
       "entryPrice": 26.18000030517578
     },
     {
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.0,
-      "pnl": 0.62,
-      "currentPrice": 44.365699768066406,
+      "pnl": 0.07,
+      "currentPrice": 44.35171127319336,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.6,
-      "currentPrice": 171.9600067138672,
+      "pnl": -1.65,
+      "currentPrice": 171.9550018310547,
       "entryPrice": 172.1300048828125
     },
     {
@@ -653,9 +653,9 @@
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.4,
-      "pnl": -47.72,
-      "currentPrice": 33.09000015258789,
+      "return": -2.2,
+      "pnl": -45.21,
+      "currentPrice": 33.04999923706055,
       "entryPrice": 32.33000183105469
     }
   ]
