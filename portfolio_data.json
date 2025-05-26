@@ -1,15 +1,11 @@
 {
-  "totalPnl": 52.75,
+  "totalPnl": 51.33,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T19:53:11.320119",
-  "entryTime": "2025-05-26T19:53:11.320119",
+  "lastUpdate": "2025-05-26T19:58:31.285573",
+  "entryTime": "2025-05-26T19:58:31.285573",
   "history": [
-    {
-      "time": "05/26 13:58",
-      "pnl": 9.59
-    },
     {
       "time": "05/26 14:31",
       "pnl": 33.27
@@ -205,6 +201,10 @@
     {
       "time": "05/26 19:53",
       "pnl": 52.75
+    },
+    {
+      "time": "05/26 19:58",
+      "pnl": 51.33
     }
   ],
   "positions": [
@@ -239,9 +239,9 @@
       "symbol": "ABX.TO",
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
-      "return": 0.6,
-      "pnl": 11.63,
-      "currentPrice": 26.030000686645508,
+      "return": 0.5,
+      "pnl": 10.86,
+      "currentPrice": 26.040000915527344,
       "entryPrice": 26.18000030517578
     },
     {
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.0,
-      "pnl": 0.41,
-      "currentPrice": 44.36042022705078,
+      "pnl": 0.62,
+      "currentPrice": 44.365699768066406,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.46,
-      "currentPrice": 171.97500610351562,
+      "pnl": -1.6,
+      "currentPrice": 171.9600067138672,
       "entryPrice": 172.1300048828125
     },
     {
@@ -645,8 +645,8 @@
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
       "return": -0.9,
-      "pnl": -17.45,
-      "currentPrice": 232.36000061035156,
+      "pnl": -18.15,
+      "currentPrice": 232.44000244140625,
       "entryPrice": 230.3800048828125
     },
     {
