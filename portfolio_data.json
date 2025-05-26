@@ -1,10 +1,10 @@
 {
-  "totalPnl": 43.23,
-  "winRate": 26.0,
+  "totalPnl": 43.49,
+  "winRate": 28.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:21:49.963206",
-  "entryTime": "2025-05-26T18:21:49.963206",
+  "lastUpdate": "2025-05-26T18:27:08.410656",
+  "entryTime": "2025-05-26T18:27:08.410656",
   "history": [
     {
       "time": "05/26 13:58",
@@ -153,6 +153,10 @@
     {
       "time": "05/26 18:21",
       "pnl": 43.23
+    },
+    {
+      "time": "05/26 18:27",
+      "pnl": 43.49
     }
   ],
   "positions": [
@@ -224,8 +228,8 @@
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
       "return": 0.4,
-      "pnl": 7.37,
-      "currentPrice": 26.084999084472656,
+      "pnl": 7.75,
+      "currentPrice": 26.079999923706055,
       "entryPrice": 26.18000030517578
     },
     {
@@ -272,6 +276,15 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
+    },
+    {
+      "symbol": "DOL.TO",
+      "company": "Dollarama Inc.",
+      "type": "LONG",
+      "return": 0.0,
+      "pnl": 0.28,
+      "currentPrice": 172.16000366210938,
+      "entryPrice": 172.1300048828125
     },
     {
       "symbol": "BDEV.L",
@@ -544,21 +557,12 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "DOL.TO",
-      "company": "Dollarama Inc.",
-      "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.28,
-      "currentPrice": 172.10000610351562,
-      "entryPrice": 172.1300048828125
-    },
-    {
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.02,
-      "currentPrice": 44.32400131225586,
+      "pnl": -1.9,
+      "currentPrice": 44.30141830444336,
       "entryPrice": 44.34989929199219
     },
     {
@@ -593,8 +597,8 @@
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
       "return": -0.9,
-      "pnl": -18.68,
-      "currentPrice": 232.5,
+      "pnl": -19.12,
+      "currentPrice": 232.5500030517578,
       "entryPrice": 230.3800048828125
     },
     {
@@ -602,8 +606,8 @@
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
       "return": -2.5,
-      "pnl": -51.49,
-      "currentPrice": 33.150001525878906,
+      "pnl": -50.86,
+      "currentPrice": 33.13999938964844,
       "entryPrice": 32.33000183105469
     }
   ]
