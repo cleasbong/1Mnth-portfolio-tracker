@@ -1,10 +1,10 @@
 {
-  "totalPnl": 38.33,
+  "totalPnl": 40.01,
   "winRate": 26.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:37:49.153884",
-  "entryTime": "2025-05-26T18:37:49.153884",
+  "lastUpdate": "2025-05-26T18:43:05.623094",
+  "entryTime": "2025-05-26T18:43:05.623094",
   "history": [
     {
       "time": "05/26 13:58",
@@ -165,6 +165,10 @@
     {
       "time": "05/26 18:37",
       "pnl": 38.33
+    },
+    {
+      "time": "05/26 18:43",
+      "pnl": 40.01
     }
   ],
   "positions": [
@@ -223,6 +227,15 @@
       "entryPrice": 49.7599983215332
     },
     {
+      "symbol": "ABX.TO",
+      "company": "Barrick Gold Corporation",
+      "type": "SHORT",
+      "return": 0.5,
+      "pnl": 9.31,
+      "currentPrice": 26.059999465942383,
+      "entryPrice": 26.18000030517578
+    },
+    {
       "symbol": "CA.PA",
       "company": "Carrefour SA",
       "type": "SHORT",
@@ -230,15 +243,6 @@
       "pnl": 9.06,
       "currentPrice": 14.5,
       "entryPrice": 14.5649995803833
-    },
-    {
-      "symbol": "ABX.TO",
-      "company": "Barrick Gold Corporation",
-      "type": "SHORT",
-      "return": 0.4,
-      "pnl": 8.53,
-      "currentPrice": 26.06999969482422,
-      "entryPrice": 26.18000030517578
     },
     {
       "symbol": "ADP.PA",
@@ -560,8 +564,8 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": -0.0,
-      "pnl": -0.47,
-      "currentPrice": 172.0800018310547,
+      "pnl": -0.09,
+      "currentPrice": 172.1199951171875,
       "entryPrice": 172.1300048828125
     },
     {
@@ -569,8 +573,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.21,
-      "currentPrice": 44.31916046142578,
+      "pnl": -1.31,
+      "currentPrice": 44.31642150878906,
       "entryPrice": 44.34989929199219
     },
     {
@@ -613,9 +617,9 @@
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.7,
-      "pnl": -54.0,
-      "currentPrice": 33.189998626708984,
+      "return": -2.6,
+      "pnl": -53.38,
+      "currentPrice": 33.18000030517578,
       "entryPrice": 32.33000183105469
     }
   ]
