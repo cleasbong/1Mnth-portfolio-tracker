@@ -1,10 +1,10 @@
 {
-  "totalPnl": 39.29,
+  "totalPnl": 38.74,
   "winRate": 26.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:48:22.153327",
-  "entryTime": "2025-05-26T18:48:22.153327",
+  "lastUpdate": "2025-05-26T18:53:38.676204",
+  "entryTime": "2025-05-26T18:53:38.676204",
   "history": [
     {
       "time": "05/26 13:58",
@@ -173,6 +173,10 @@
     {
       "time": "05/26 18:48",
       "pnl": 39.29
+    },
+    {
+      "time": "05/26 18:53",
+      "pnl": 38.74
     }
   ],
   "positions": [
@@ -564,22 +568,22 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "DOL.TO",
-      "company": "Dollarama Inc.",
-      "type": "LONG",
-      "return": -0.1,
-      "pnl": -0.94,
-      "currentPrice": 172.02999877929688,
-      "entryPrice": 172.1300048828125
-    },
-    {
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": -0.1,
-      "pnl": -1.18,
-      "currentPrice": 44.31991958618164,
+      "return": -0.0,
+      "pnl": -0.66,
+      "currentPrice": 44.33300018310547,
       "entryPrice": 44.34989929199219
+    },
+    {
+      "symbol": "DOL.TO",
+      "company": "Dollarama Inc.",
+      "type": "LONG",
+      "return": -0.0,
+      "pnl": -0.75,
+      "currentPrice": 172.0500030517578,
+      "entryPrice": 172.1300048828125
     },
     {
       "symbol": "LDO.MI",
@@ -621,9 +625,9 @@
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.6,
-      "pnl": -53.38,
-      "currentPrice": 33.18000030517578,
+      "return": -2.7,
+      "pnl": -54.63,
+      "currentPrice": 33.20000076293945,
       "entryPrice": 32.33000183105469
     }
   ]
