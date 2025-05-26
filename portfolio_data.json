@@ -1,15 +1,11 @@
 {
-  "totalPnl": 51.18,
+  "totalPnl": 51.65,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T21:18:44.164106",
-  "entryTime": "2025-05-26T21:18:44.164106",
+  "lastUpdate": "2025-05-26T21:24:00.367638",
+  "entryTime": "2025-05-26T21:24:00.367638",
   "history": [
-    {
-      "time": "05/26 15:37",
-      "pnl": 45.22
-    },
     {
       "time": "05/26 15:43",
       "pnl": 56.63
@@ -205,6 +201,10 @@
     {
       "time": "05/26 21:18",
       "pnl": 51.18
+    },
+    {
+      "time": "05/26 21:24",
+      "pnl": 51.65
     }
   ],
   "positions": [
@@ -254,6 +254,15 @@
       "entryPrice": 475.8500061035156
     },
     {
+      "symbol": "ABX.TO",
+      "company": "Barrick Gold Corporation",
+      "type": "SHORT",
+      "return": 0.5,
+      "pnl": 10.08,
+      "currentPrice": 26.049999237060547,
+      "entryPrice": 26.18000030517578
+    },
+    {
       "symbol": "BANB.SW",
       "company": "Bachem Holding AG",
       "type": "SHORT",
@@ -270,15 +279,6 @@
       "pnl": 9.06,
       "currentPrice": 14.5,
       "entryPrice": 14.5649995803833
-    },
-    {
-      "symbol": "ABX.TO",
-      "company": "Barrick Gold Corporation",
-      "type": "SHORT",
-      "return": 0.4,
-      "pnl": 8.92,
-      "currentPrice": 26.065000534057617,
-      "entryPrice": 26.18000030517578
     },
     {
       "symbol": "ADP.PA",
@@ -331,7 +331,7 @@
       "type": "LONG",
       "return": 0.0,
       "pnl": 0.36,
-      "currentPrice": 44.35919189453125,
+      "currentPrice": 44.35919952392578,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -0.94,
-      "currentPrice": 172.02999877929688,
+      "pnl": -1.51,
+      "currentPrice": 171.97000122070312,
       "entryPrice": 172.1300048828125
     },
     {
@@ -644,18 +644,18 @@
       "symbol": "FNV.TO",
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
-      "return": -1.0,
-      "pnl": -19.92,
-      "currentPrice": 232.63999938964844,
+      "return": -0.9,
+      "pnl": -18.15,
+      "currentPrice": 232.44000244140625,
       "entryPrice": 230.3800048828125
     },
     {
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.2,
-      "pnl": -44.58,
-      "currentPrice": 33.040000915527344,
+      "return": -2.3,
+      "pnl": -46.47,
+      "currentPrice": 33.06999969482422,
       "entryPrice": 32.33000183105469
     }
   ]
