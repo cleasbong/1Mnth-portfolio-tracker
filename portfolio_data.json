@@ -1,15 +1,11 @@
 {
-  "totalPnl": 70.23,
-  "winRate": 28.0,
+  "totalPnl": 69.43,
+  "winRate": 26.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T22:26:11.326984",
-  "entryTime": "2025-05-26T22:26:11.326984",
+  "lastUpdate": "2025-05-26T22:31:27.423210",
+  "entryTime": "2025-05-26T22:31:27.423210",
   "history": [
-    {
-      "time": "05/26 16:20",
-      "pnl": -0.21
-    },
     {
       "time": "05/26 16:25",
       "pnl": 4.65
@@ -205,6 +201,10 @@
     {
       "time": "05/26 22:26",
       "pnl": 70.23
+    },
+    {
+      "time": "05/26 22:31",
+      "pnl": 69.43
     }
   ],
   "positions": [
@@ -324,15 +324,6 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.74,
-      "currentPrice": 44.36867904663086,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
@@ -603,6 +594,15 @@
       "pnl": -0.0,
       "currentPrice": 382.70001220703125,
       "entryPrice": 382.70001220703125
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": -0.0,
+      "pnl": -0.06,
+      "currentPrice": 44.3484001159668,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "DOL.TO",
