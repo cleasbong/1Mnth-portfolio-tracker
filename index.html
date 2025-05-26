@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Portfolio Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-card.negative {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+        }
+
+        .stat-card.positive {
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            color: #2c3e50;
+        }
+
+        .stat-value {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .update-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-left: 4px solid #007bff;
+        }
+
+        .chart-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .top-performers {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .performer-card {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .performer-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .performer-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .performer-item:last-child {
+            border-bottom: none;
+        }
+
+        .symbol {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .gain {
+            color: #27ae60;
+            font-weight: bold;
+        }
+
+        .loss {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #f0f0f0;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📈 Live Portfolio Tracker</h1>
+            <p>Real-time P&L monitoring across 50 positions</p>
+        </div>
+
+        <div class="update-info">
+            <strong>🔄 Last Updated:</strong> <span id="lastUpdate">Loading...</span>
+            <br>
+            <strong>⏱️ Trade Duration:</strong> <span id="tradeDuration">Calculating...</span>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card" id="totalPnlCard">
+                <div class="stat-value" id="totalPnl">$0.00</div>
+                <div class="stat-label">Total P&L</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="winRate">0%</div>
+                <div class="stat-label">Win Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgReturn">0%</div>
+                <div class="stat-label">Average Return</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="totalPositions">50</div>
+                <div class="stat-label">Total Positions</div>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <h3 style="text-align: center; margin-bottom: 20px; color: #2c3e50;">P&L Performance Over Time</h3>
+            <canvas id="pnlChart" width="400" height="200"></canvas>
+        </div>
+
+        <div class="top-performers">
+            <div class="performer-card">
+                <h3>🟢 Top Gainers</h3>
+                <div id="topGainers">
+                    <div class="loading">Loading...</div>
+                </div>
+            </div>
+            <div class="performer-card">
+                <h3>🔴 Top Losers</h3>
+                <div id="topLosers">
+                    <div class="loading">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Portfolio tracking system • Updates every 5 minutes during market hours</p>
+            <p>Data source: Real-time market feeds</p>
+        </div>
+    </div>
+
+    <script>
+        // Portfolio data - this will be updated by your Python script
+        let portfolioData = {
+            totalPnl: 0,
+            winRate: 0,
+            avgReturn: 0,
+            totalPositions: 50,
+            lastUpdate: new Date().toISOString(),
+            entryTime: new Date().toISOString(),
+            positions: [],
+            history: []
+        };
+
+        // Chart setup
+        const ctx = document.getElementById('pnlChart').getContext('2d');
+        const pnlChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Total P&L ($)',
+                    data: [],
+                    borderColor: '#4facfe',
+                    backgroundColor: 'rgba(79, 172, 254, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.4
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(0,0,0,0.1)'
+                        },
+                        ticks: {
+                            callback: function(value) {
+                                return '$' + value.toLocaleString();
+                            }
+                        }
+                    },
+                    x: {
+                        grid: {
+                            color: 'rgba(0,0,0,0.1)'
+                        }
+                    }
+                },
+                elements: {
+                    point: {
+                        radius: 4,
+                        hoverRadius: 8
+                    }
+                }
+            }
+        });
+
+        function updateDashboard() {
+            // This function will be called to update the dashboard
+            // In a real implementation, this would fetch data from your portfolio tracker
+            
+            // For now, let's simulate some data
+            const simulatedData = generateSimulatedData();
+            
+            // Update stats
+            document.getElementById('totalPnl').textContent = '$' + simulatedData.totalPnl.toLocaleString('en-US', {minimumFractionDigits: 2});
+            document.getElementById('winRate').textContent = simulatedData.winRate.toFixed(1) + '%';
+            document.getElementById('avgReturn').textContent = simulatedData.avgReturn.toFixed(1) + '%';
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
+            
+            // Update P&L card color
+            const pnlCard = document.getElementById('totalPnlCard');
+            if (simulatedData.totalPnl >= 0) {
+                pnlCard.className = 'stat-card positive';
+            } else {
+                pnlCard.className = 'stat-card negative';
+            }
+            
+            // Calculate trade duration
+            const entryTime = new Date(simulatedData.entryTime);
+            const now = new Date();
+            const duration = now - entryTime;
+            const days = Math.floor(duration / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+            document.getElementById('tradeDuration').textContent = `${days}d ${hours}h ${minutes}m`;
+            
+            // Update chart
+            updateChart(simulatedData.history);
+            
+            // Update top performers
+            updateTopPerformers(simulatedData.positions);
+        }
+
+        function generateSimulatedData() {
+            // This simulates your portfolio data
+            // In reality, your Python script will generate a JSON file with real data
+            const baseTime = Date.now() - (7 * 24 * 60 * 60 * 1000); // 7 days ago
+            const history = [];
+            let currentPnl = 0;
+            
+            // Generate 7 days of data
+            for (let i = 0; i < 7; i++) {
+                const change = (Math.random() - 0.5) * 500; // Random change
+                currentPnl += change;
+                history.push({
+                    time: new Date(baseTime + i * 24 * 60 * 60 * 1000).toLocaleDateString(),
+                    pnl: currentPnl
+                });
+            }
+            
+            // Generate position data
+            const positions = [
+                { symbol: 'MRVL', company: 'Marvell Technology', type: 'SHORT', return: 2.3, pnl: 234.56 },
+                { symbol: 'ZEAL.CO', company: 'Zealand Pharma', type: 'LONG', return: -1.8, pnl: -145.32 },
+                { symbol: 'TXN', company: 'Texas Instruments', type: 'SHORT', return: 1.5, pnl: 189.24 },
+                { symbol: 'UNH', company: 'UnitedHealth', type: 'SHORT', return: -0.8, pnl: -98.76 },
+                { symbol: 'FDX', company: 'FedEx', type: 'LONG', return: 3.2, pnl: 312.45 }
+            ];
+            
+            return {
+                totalPnl: currentPnl,
+                winRate: 64.2,
+                avgReturn: 1.8,
+                totalPositions: 50,
+                entryTime: new Date(baseTime).toISOString(),
+                history: history,
+                positions: positions
+            };
+        }
+
+        function updateChart(history) {
+            pnlChart.data.labels = history.map(h => h.time);
+            pnlChart.data.datasets[0].data = history.map(h => h.pnl);
+            pnlChart.update();
+        }
+
+        function updateTopPerformers(positions) {
+            const gainers = positions.filter(p => p.pnl > 0).sort((a, b) => b.pnl - a.pnl).slice(0, 5);
+            const losers = positions.filter(p => p.pnl < 0).sort((a, b) => a.pnl - b.pnl).slice(0, 5);
+            
+            document.getElementById('topGainers').innerHTML = gainers.map(p => 
+                `<div class="performer-item">
+                    <div>
+                        <div class="symbol">${p.symbol}</div>
+                        <div style="font-size: 0.9em; color: #666;">${p.type}</div>
+                    </div>
+                    <div>
+                        <div class="gain">+$${p.pnl.toFixed(2)}</div>
+                        <div style="font-size: 0.9em; color: #666;">+${p.return.toFixed(1)}%</div>
+                    </div>
+                </div>`
+            ).join('');
+            
+            document.getElementById('topLosers').innerHTML = losers.map(p => 
+                `<div class="performer-item">
+                    <div>
+                        <div class="symbol">${p.symbol}</div>
+                        <div style="font-size: 0.9em; color: #666;">${p.type}</div>
+                    </div>
+                    <div>
+                        <div class="loss">$${p.pnl.toFixed(2)}</div>
+                        <div style="font-size: 0.9em; color: #666;">${p.return.toFixed(1)}%</div>
+                    </div>
+                </div>`
+            ).join('');
+        }
+
+        // Initialize dashboard
+        updateDashboard();
+        
+        // Update every 5 minutes
+        setInterval(updateDashboard, 5 * 60 * 1000);
+        
+        // Also update every 30 seconds for demo purposes
+        setInterval(updateDashboard, 30000);
+    </script>
+</body>
+</html>
