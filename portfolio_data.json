@@ -1,10 +1,10 @@
 {
-  "totalPnl": 42.3,
-  "winRate": 26.0,
+  "totalPnl": 41.25,
+  "winRate": 28.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T19:14:50.616553",
-  "entryTime": "2025-05-26T19:14:50.616553",
+  "lastUpdate": "2025-05-26T19:20:06.836947",
+  "entryTime": "2025-05-26T19:20:06.836947",
   "history": [
     {
       "time": "05/26 13:58",
@@ -193,6 +193,10 @@
     {
       "time": "05/26 19:14",
       "pnl": 42.3
+    },
+    {
+      "time": "05/26 19:20",
+      "pnl": 41.25
     }
   ],
   "positions": [
@@ -312,6 +316,15 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.0,
+      "pnl": 0.43,
+      "currentPrice": 44.36090087890625,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
@@ -584,15 +597,6 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.11,
-      "currentPrice": 44.34696960449219,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -632,18 +636,18 @@
       "symbol": "FNV.TO",
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
-      "return": -1.0,
-      "pnl": -21.06,
-      "currentPrice": 232.77000427246094,
+      "return": -1.1,
+      "pnl": -22.03,
+      "currentPrice": 232.8800048828125,
       "entryPrice": 230.3800048828125
     },
     {
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.6,
-      "pnl": -53.38,
-      "currentPrice": 33.18000030517578,
+      "return": -2.7,
+      "pnl": -54.0,
+      "currentPrice": 33.189998626708984,
       "entryPrice": 32.33000183105469
     }
   ]
