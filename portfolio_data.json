@@ -1,10 +1,10 @@
 {
-  "totalPnl": 35.59,
+  "totalPnl": 34.02,
   "winRate": 28.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:58:55.565045",
-  "entryTime": "2025-05-26T18:58:55.565045",
+  "lastUpdate": "2025-05-26T19:04:13.871176",
+  "entryTime": "2025-05-26T19:04:13.871176",
   "history": [
     {
       "time": "05/26 13:58",
@@ -181,6 +181,10 @@
     {
       "time": "05/26 18:58",
       "pnl": 35.59
+    },
+    {
+      "time": "05/26 19:04",
+      "pnl": 34.02
     }
   ],
   "positions": [
@@ -252,8 +256,8 @@
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
       "return": 0.4,
-      "pnl": 8.53,
-      "currentPrice": 26.06999969482422,
+      "pnl": 8.14,
+      "currentPrice": 26.075000762939453,
       "entryPrice": 26.18000030517578
     },
     {
@@ -293,6 +297,15 @@
       "entryPrice": 17.40999984741211
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 1.23,
+      "currentPrice": 44.38130187988281,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "MRK.DE",
       "company": "MERCK KGaA",
       "type": "SHORT",
@@ -300,15 +313,6 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.72,
-      "currentPrice": 44.36830139160156,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
@@ -584,9 +588,9 @@
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.66,
-      "currentPrice": 172.05999755859375,
+      "return": -0.1,
+      "pnl": -0.85,
+      "currentPrice": 172.0399932861328,
       "entryPrice": 172.1300048828125
     },
     {
@@ -620,9 +624,9 @@
       "symbol": "FNV.TO",
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
-      "return": -1.1,
-      "pnl": -21.94,
-      "currentPrice": 232.8699951171875,
+      "return": -1.2,
+      "pnl": -23.44,
+      "currentPrice": 233.0399932861328,
       "entryPrice": 230.3800048828125
     },
     {
