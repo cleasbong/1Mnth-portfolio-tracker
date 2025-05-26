@@ -1,15 +1,11 @@
 {
-  "totalPnl": 71.03,
+  "totalPnl": 71.42,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T23:54:33.189979",
-  "entryTime": "2025-05-26T23:54:33.189979",
+  "lastUpdate": "2025-05-26T23:59:53.958336",
+  "entryTime": "2025-05-26T23:59:53.958336",
   "history": [
-    {
-      "time": "05/26 18:27",
-      "pnl": 43.49
-    },
     {
       "time": "05/26 18:32",
       "pnl": 45.43
@@ -205,6 +201,10 @@
     {
       "time": "05/26 23:54",
       "pnl": 71.03
+    },
+    {
+      "time": "05/26 23:59",
+      "pnl": 71.42
     }
   ],
   "positions": [
@@ -321,8 +321,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.1,
-      "pnl": 1.54,
-      "currentPrice": 44.389198303222656,
+      "pnl": 1.93,
+      "currentPrice": 44.39910125732422,
       "entryPrice": 44.34989929199219
     },
     {
