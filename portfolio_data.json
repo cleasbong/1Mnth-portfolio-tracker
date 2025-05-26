@@ -1,15 +1,11 @@
 {
-  "totalPnl": 72.08,
+  "totalPnl": 72.62,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T22:57:47.834161",
-  "entryTime": "2025-05-26T22:57:47.834161",
+  "lastUpdate": "2025-05-26T23:03:05.316623",
+  "entryTime": "2025-05-26T23:03:05.316623",
   "history": [
-    {
-      "time": "05/26 16:52",
-      "pnl": 18.68
-    },
     {
       "time": "05/26 17:12",
       "pnl": 12.47
@@ -205,6 +201,10 @@
     {
       "time": "05/26 22:57",
       "pnl": 72.08
+    },
+    {
+      "time": "05/26 23:03",
+      "pnl": 72.62
     }
   ],
   "positions": [
@@ -299,6 +299,15 @@
       "entryPrice": 83.30000305175781
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.2,
+      "pnl": 3.13,
+      "currentPrice": 44.4296989440918,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
@@ -306,15 +315,6 @@
       "pnl": 3.1,
       "currentPrice": 65.44999694824219,
       "entryPrice": 65.55000305175781
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.59,
-      "currentPrice": 44.41600036621094,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "GET.PA",
