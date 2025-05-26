@@ -1,10 +1,10 @@
 {
-  "totalPnl": 45.43,
-  "winRate": 28.0,
+  "totalPnl": 38.33,
+  "winRate": 26.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:32:25.422604",
-  "entryTime": "2025-05-26T18:32:25.422604",
+  "lastUpdate": "2025-05-26T18:37:49.153884",
+  "entryTime": "2025-05-26T18:37:49.153884",
   "history": [
     {
       "time": "05/26 13:58",
@@ -161,6 +161,10 @@
     {
       "time": "05/26 18:32",
       "pnl": 45.43
+    },
+    {
+      "time": "05/26 18:37",
+      "pnl": 38.33
     }
   ],
   "positions": [
@@ -280,15 +284,6 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
-    },
-    {
-      "symbol": "DOL.TO",
-      "company": "Dollarama Inc.",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.19,
-      "currentPrice": 172.14999389648438,
-      "entryPrice": 172.1300048828125
     },
     {
       "symbol": "BDEV.L",
@@ -561,12 +556,21 @@
       "entryPrice": 382.70001220703125
     },
     {
+      "symbol": "DOL.TO",
+      "company": "Dollarama Inc.",
+      "type": "LONG",
+      "return": -0.0,
+      "pnl": -0.47,
+      "currentPrice": 172.0800018310547,
+      "entryPrice": 172.1300048828125
+    },
+    {
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.64,
-      "currentPrice": 44.333499908447266,
+      "return": -0.1,
+      "pnl": -1.21,
+      "currentPrice": 44.31916046142578,
       "entryPrice": 44.34989929199219
     },
     {
@@ -600,18 +604,18 @@
       "symbol": "FNV.TO",
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
-      "return": -0.9,
-      "pnl": -19.12,
-      "currentPrice": 232.5500030517578,
+      "return": -1.1,
+      "pnl": -21.85,
+      "currentPrice": 232.86000061035156,
       "entryPrice": 230.3800048828125
     },
     {
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.5,
-      "pnl": -50.86,
-      "currentPrice": 33.13999938964844,
+      "return": -2.7,
+      "pnl": -54.0,
+      "currentPrice": 33.189998626708984,
       "entryPrice": 32.33000183105469
     }
   ]
