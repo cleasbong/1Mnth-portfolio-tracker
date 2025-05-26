@@ -302,42 +302,49 @@
             }
         });
 
-        function updateDashboard() {
-            // This function will be called to update the dashboard
-            // In a real implementation, this would fetch data from your portfolio tracker
-            
-            // For now, let's simulate some data
-            const simulatedData = generateSimulatedData();
-            
-            // Update stats
-            document.getElementById('totalPnl').textContent = '$' + simulatedData.totalPnl.toLocaleString('en-US', {minimumFractionDigits: 2});
-            document.getElementById('winRate').textContent = simulatedData.winRate.toFixed(1) + '%';
-            document.getElementById('avgReturn').textContent = simulatedData.avgReturn.toFixed(1) + '%';
-            document.getElementById('lastUpdate').textContent = new Date().toLocaleString();
-            
-            // Update P&L card color
-            const pnlCard = document.getElementById('totalPnlCard');
-            if (simulatedData.totalPnl >= 0) {
-                pnlCard.className = 'stat-card positive';
-            } else {
-                pnlCard.className = 'stat-card negative';
-            }
-            
-            // Calculate trade duration
-            const entryTime = new Date(simulatedData.entryTime);
-            const now = new Date();
-            const duration = now - entryTime;
-            const days = Math.floor(duration / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
-            document.getElementById('tradeDuration').textContent = `${days}d ${hours}h ${minutes}m`;
-            
-            // Update chart
-            updateChart(simulatedData.history);
-            
-            // Update top performers
-            updateTopPerformers(simulatedData.positions);
+        async function updateDashboard() {
+    try {
+        // Fetch real data from your uploaded JSON file
+        const response = await fetch('portfolio_data.json');
+        const data = await response.json();
+        
+        // Update stats with real data
+        document.getElementById('totalPnl').textContent = '$' + data.totalPnl.toLocaleString('en-US', {minimumFractionDigits: 2});
+        document.getElementById('winRate').textContent = data.winRate.toFixed(1) + '%';
+        document.getElementById('avgReturn').textContent = data.avgReturn.toFixed(1) + '%';
+        document.getElementById('totalPositions').textContent = data.totalPositions;
+        document.getElementById('lastUpdate').textContent = new Date(data.lastUpdate).toLocaleString();
+        
+        // Update P&L card color
+        const pnlCard = document.getElementById('totalPnlCard');
+        if (data.totalPnl >= 0) {
+            pnlCard.className = 'stat-card positive';
+        } else {
+            pnlCard.className = 'stat-card negative';
         }
+        
+        // Calculate trade duration
+        const entryTime = new Date(data.entryTime);
+        const now = new Date();
+        const duration = now - entryTime;
+        const days = Math.floor(duration / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((duration % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((duration % (1000 * 60 * 60)) / (1000 * 60));
+        document.getElementById('tradeDuration').textContent = `${days}d ${hours}h ${minutes}m`;
+        
+        // Update chart with real history
+        if (data.history && data.history.length > 0) {
+            updateChart(data.history);
+        }
+        
+        // Update top performers with real data
+        updateTopPerformers(data.positions);
+        
+    } catch (error) {
+        console.error('Error loading portfolio data:', error);
+        document.getElementById('totalPnl').textContent = 'Error loading data';
+    }
+}
 
         function generateSimulatedData() {
             // This simulates your portfolio data
