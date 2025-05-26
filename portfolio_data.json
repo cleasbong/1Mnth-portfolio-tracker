@@ -1,10 +1,10 @@
 {
-  "totalPnl": 40.01,
+  "totalPnl": 39.29,
   "winRate": 26.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T18:43:05.623094",
-  "entryTime": "2025-05-26T18:43:05.623094",
+  "lastUpdate": "2025-05-26T18:48:22.153327",
+  "entryTime": "2025-05-26T18:48:22.153327",
   "history": [
     {
       "time": "05/26 13:58",
@@ -169,6 +169,10 @@
     {
       "time": "05/26 18:43",
       "pnl": 40.01
+    },
+    {
+      "time": "05/26 18:48",
+      "pnl": 39.29
     }
   ],
   "positions": [
@@ -563,9 +567,9 @@
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.09,
-      "currentPrice": 172.1199951171875,
+      "return": -0.1,
+      "pnl": -0.94,
+      "currentPrice": 172.02999877929688,
       "entryPrice": 172.1300048828125
     },
     {
@@ -573,8 +577,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.31,
-      "currentPrice": 44.31642150878906,
+      "pnl": -1.18,
+      "currentPrice": 44.31991958618164,
       "entryPrice": 44.34989929199219
     },
     {
