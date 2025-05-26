@@ -1,15 +1,11 @@
 {
-  "totalPnl": 72.62,
+  "totalPnl": 71.52,
   "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T23:03:05.316623",
-  "entryTime": "2025-05-26T23:03:05.316623",
+  "lastUpdate": "2025-05-26T23:17:09.760230",
+  "entryTime": "2025-05-26T23:17:09.760230",
   "history": [
-    {
-      "time": "05/26 17:12",
-      "pnl": 12.47
-    },
     {
       "time": "05/26 17:17",
       "pnl": 26.54
@@ -205,6 +201,10 @@
     {
       "time": "05/26 23:03",
       "pnl": 72.62
+    },
+    {
+      "time": "05/26 23:17",
+      "pnl": 71.52
     }
   ],
   "positions": [
@@ -299,15 +299,6 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.2,
-      "pnl": 3.13,
-      "currentPrice": 44.4296989440918,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
@@ -324,6 +315,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.03,
+      "currentPrice": 44.4015998840332,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
