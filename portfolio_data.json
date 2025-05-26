@@ -1,15 +1,11 @@
 {
-  "totalPnl": 69.43,
-  "winRate": 26.0,
+  "totalPnl": 71.81,
+  "winRate": 28.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T22:31:27.423210",
-  "entryTime": "2025-05-26T22:31:27.423210",
+  "lastUpdate": "2025-05-26T22:36:43.325314",
+  "entryTime": "2025-05-26T22:36:43.325314",
   "history": [
-    {
-      "time": "05/26 16:25",
-      "pnl": 4.65
-    },
     {
       "time": "05/26 16:31",
       "pnl": 8.84
@@ -205,6 +201,10 @@
     {
       "time": "05/26 22:31",
       "pnl": 69.43
+    },
+    {
+      "time": "05/26 22:36",
+      "pnl": 71.81
     }
   ],
   "positions": [
@@ -315,6 +315,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.32,
+      "currentPrice": 44.409000396728516,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
@@ -594,15 +603,6 @@
       "pnl": -0.0,
       "currentPrice": 382.70001220703125,
       "entryPrice": 382.70001220703125
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.06,
-      "currentPrice": 44.3484001159668,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "DOL.TO",
