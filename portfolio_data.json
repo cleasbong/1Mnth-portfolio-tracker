@@ -1,10 +1,10 @@
 {
-  "totalPnl": 24.27,
-  "winRate": 16.0,
+  "totalPnl": 36.31,
+  "winRate": 20.0,
   "avgReturn": 0.0,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T14:55:23.561578",
-  "entryTime": "2025-05-26T14:55:23.561578",
+  "lastUpdate": "2025-05-26T15:00:43.054950",
+  "entryTime": "2025-05-26T15:00:43.054950",
   "history": [
     {
       "time": "05/26 13:58",
@@ -33,9 +33,22 @@
     {
       "time": "05/26 14:55",
       "pnl": 24.27
+    },
+    {
+      "time": "05/26 15:00",
+      "pnl": 36.31
     }
   ],
   "positions": [
+    {
+      "symbol": "SAAB-B.ST",
+      "company": "Saab AB",
+      "type": "SHORT",
+      "return": 0.6,
+      "pnl": 9.22,
+      "currentPrice": 473.1499938964844,
+      "entryPrice": 475.8500061035156
+    },
     {
       "symbol": "BANB.SW",
       "company": "Bachem Holding AG",
@@ -46,31 +59,22 @@
       "entryPrice": 49.7599983215332
     },
     {
-      "symbol": "CA.PA",
-      "company": "Carrefour SA",
-      "type": "SHORT",
-      "return": 0.4,
-      "pnl": 8.36,
-      "currentPrice": 14.505000114440918,
-      "entryPrice": 14.5649995803833
-    },
-    {
-      "symbol": "SAAB-B.ST",
-      "company": "Saab AB",
-      "type": "SHORT",
-      "return": 0.5,
-      "pnl": 7.51,
-      "currentPrice": 473.6499938964844,
-      "entryPrice": 475.8500061035156
-    },
-    {
       "symbol": "UHR.SW",
       "company": "The Swatch Group AG",
       "type": "SHORT",
       "return": 0.4,
-      "pnl": 7.17,
-      "currentPrice": 141.10000610351562,
+      "pnl": 7.89,
+      "currentPrice": 141.0500030517578,
       "entryPrice": 141.60000610351562
+    },
+    {
+      "symbol": "CA.PA",
+      "company": "Carrefour SA",
+      "type": "SHORT",
+      "return": 0.3,
+      "pnl": 6.97,
+      "currentPrice": 14.515000343322754,
+      "entryPrice": 14.5649995803833
     },
     {
       "symbol": "AED.BR",
@@ -82,6 +86,15 @@
       "entryPrice": 65.55000305175781
     },
     {
+      "symbol": "GET.PA",
+      "company": "Getlink SE",
+      "type": "SHORT",
+      "return": 0.2,
+      "pnl": 4.66,
+      "currentPrice": 17.3700008392334,
+      "entryPrice": 17.40999984741211
+    },
+    {
       "symbol": "RY4C.DE",
       "company": "Ryanair Holdings plc",
       "type": "SHORT",
@@ -91,21 +104,30 @@
       "entryPrice": 23.799999237060547
     },
     {
-      "symbol": "GET.PA",
-      "company": "Getlink SE",
+      "symbol": "ROCK-B.CO",
+      "company": "Rockwool A/S",
       "type": "SHORT",
       "return": 0.2,
-      "pnl": 3.5,
-      "currentPrice": 17.3799991607666,
-      "entryPrice": 17.40999984741211
+      "pnl": 3.57,
+      "currentPrice": 312.6499938964844,
+      "entryPrice": 313.20001220703125
+    },
+    {
+      "symbol": "ENR.DE",
+      "company": "Siemens Energy AG",
+      "type": "SHORT",
+      "return": 0.1,
+      "pnl": 2.44,
+      "currentPrice": 83.19999694824219,
+      "entryPrice": 83.30000305175781
     },
     {
       "symbol": "LDO.MI",
       "company": "Leonardo S.p.a.",
       "type": "SHORT",
-      "return": 0.0,
-      "pnl": 0.77,
-      "currentPrice": 52.7599983215332,
+      "return": 0.1,
+      "pnl": 2.31,
+      "currentPrice": 52.720001220703125,
       "entryPrice": 52.779998779296875
     },
     {
@@ -170,24 +192,6 @@
       "pnl": -0.0,
       "currentPrice": 1323.5,
       "entryPrice": 1323.5
-    },
-    {
-      "symbol": "ENR.DE",
-      "company": "Siemens Energy AG",
-      "type": "SHORT",
-      "return": -0.0,
-      "pnl": -0.0,
-      "currentPrice": 83.30000305175781,
-      "entryPrice": 83.30000305175781
-    },
-    {
-      "symbol": "ROCK-B.CO",
-      "company": "Rockwool A/S",
-      "type": "SHORT",
-      "return": -0.0,
-      "pnl": -0.0,
-      "currentPrice": 313.20001220703125,
-      "entryPrice": 313.20001220703125
     },
     {
       "symbol": "ACT",
@@ -433,13 +437,22 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "MRK.DE",
-      "company": "MERCK KGaA",
-      "type": "SHORT",
+      "symbol": "ZEAL.CO",
+      "company": "Zealand Pharma A/S",
+      "type": "LONG",
       "return": -0.0,
-      "pnl": -0.88,
-      "currentPrice": 115.94999694824219,
-      "entryPrice": 115.9000015258789
+      "pnl": -0.92,
+      "currentPrice": 440.0,
+      "entryPrice": 440.20001220703125
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -1.06,
+      "currentPrice": 44.32279968261719,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "ADP.PA",
@@ -451,22 +464,13 @@
       "entryPrice": 116.0999984741211
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
+      "symbol": "MRK.DE",
+      "company": "MERCK KGaA",
+      "type": "SHORT",
       "return": -0.1,
-      "pnl": -2.4,
-      "currentPrice": 44.288761138916016,
-      "entryPrice": 44.34989929199219
-    },
-    {
-      "symbol": "ZEAL.CO",
-      "company": "Zealand Pharma A/S",
-      "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.77,
-      "currentPrice": 439.6000061035156,
-      "entryPrice": 440.20001220703125
+      "pnl": -1.75,
+      "currentPrice": 116.0,
+      "entryPrice": 115.9000015258789
     },
     {
       "symbol": "IP.MI",
