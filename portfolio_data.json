@@ -1,10 +1,10 @@
 {
-  "totalPnl": 47.52,
-  "winRate": 24.0,
-  "avgReturn": 0.0,
+  "totalPnl": 51.25,
+  "winRate": 26.0,
+  "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-26T17:45:43.719904",
-  "entryTime": "2025-05-26T17:45:43.719904",
+  "lastUpdate": "2025-05-26T17:57:53.257074",
+  "entryTime": "2025-05-26T17:57:53.257074",
   "history": [
     {
       "time": "05/26 13:58",
@@ -141,6 +141,10 @@
     {
       "time": "05/26 17:45",
       "pnl": 47.52
+    },
+    {
+      "time": "05/26 17:57",
+      "pnl": 51.25
     }
   ],
   "positions": [
@@ -157,9 +161,9 @@
       "symbol": "RY4C.DE",
       "company": "Ryanair Holdings plc",
       "type": "SHORT",
-      "return": 0.8,
-      "pnl": 17.06,
-      "currentPrice": 23.600000381469727,
+      "return": 1.1,
+      "pnl": 21.33,
+      "currentPrice": 23.549999237060547,
       "entryPrice": 23.799999237060547
     },
     {
@@ -172,22 +176,22 @@
       "entryPrice": 313.20001220703125
     },
     {
-      "symbol": "SAAB-B.ST",
-      "company": "Saab AB",
-      "type": "SHORT",
-      "return": 0.7,
-      "pnl": 11.78,
-      "currentPrice": 472.3999938964844,
-      "entryPrice": 475.8500061035156
-    },
-    {
       "symbol": "UHR.SW",
       "company": "The Swatch Group AG",
       "type": "SHORT",
       "return": 0.5,
-      "pnl": 10.04,
-      "currentPrice": 140.89999389648438,
+      "pnl": 10.75,
+      "currentPrice": 140.85000610351562,
       "entryPrice": 141.60000610351562
+    },
+    {
+      "symbol": "SAAB-B.ST",
+      "company": "Saab AB",
+      "type": "SHORT",
+      "return": 0.7,
+      "pnl": 10.75,
+      "currentPrice": 472.70001220703125,
+      "entryPrice": 475.8500061035156
     },
     {
       "symbol": "BANB.SW",
@@ -203,18 +207,18 @@
       "company": "Carrefour SA",
       "type": "SHORT",
       "return": 0.4,
-      "pnl": 8.36,
-      "currentPrice": 14.505000114440918,
+      "pnl": 9.06,
+      "currentPrice": 14.5,
       "entryPrice": 14.5649995803833
     },
     {
-      "symbol": "ABX.TO",
-      "company": "Barrick Gold Corporation",
+      "symbol": "ADP.PA",
+      "company": "Aeroports de Paris SA",
       "type": "SHORT",
       "return": 0.3,
-      "pnl": 6.98,
-      "currentPrice": 26.09000015258789,
-      "entryPrice": 26.18000030517578
+      "pnl": 6.99,
+      "currentPrice": 115.69999694824219,
+      "entryPrice": 116.0999984741211
     },
     {
       "symbol": "ENR.DE",
@@ -226,31 +230,40 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "ADP.PA",
-      "company": "Aeroports de Paris SA",
+      "symbol": "ABX.TO",
+      "company": "Barrick Gold Corporation",
       "type": "SHORT",
       "return": 0.3,
-      "pnl": 5.25,
-      "currentPrice": 115.80000305175781,
-      "entryPrice": 116.0999984741211
+      "pnl": 6.2,
+      "currentPrice": 26.100000381469727,
+      "entryPrice": 26.18000030517578
     },
     {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
       "return": 0.2,
-      "pnl": 4.65,
-      "currentPrice": 65.4000015258789,
+      "pnl": 3.1,
+      "currentPrice": 65.44999694824219,
       "entryPrice": 65.55000305175781
     },
     {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
-      "return": 0.2,
-      "pnl": 3.5,
-      "currentPrice": 17.3799991607666,
+      "return": 0.1,
+      "pnl": 2.33,
+      "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "MRK.DE",
+      "company": "MERCK KGaA",
+      "type": "SHORT",
+      "return": 0.0,
+      "pnl": 0.88,
+      "currentPrice": 115.8499984741211,
+      "entryPrice": 115.9000015258789
     },
     {
       "symbol": "BDEV.L",
@@ -341,15 +354,6 @@
       "pnl": -0.0,
       "currentPrice": 296.79998779296875,
       "entryPrice": 296.79998779296875
-    },
-    {
-      "symbol": "MRK.DE",
-      "company": "MERCK KGaA",
-      "type": "SHORT",
-      "return": -0.0,
-      "pnl": -0.0,
-      "currentPrice": 115.9000015258789,
-      "entryPrice": 115.9000015258789
     },
     {
       "symbol": "WPP.L",
@@ -536,17 +540,17 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.0,
-      "pnl": -0.44,
-      "currentPrice": 44.338661193847656,
+      "pnl": -0.1,
+      "currentPrice": 44.3474006652832,
       "entryPrice": 44.34989929199219
     },
     {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
-      "return": -0.2,
-      "pnl": -3.49,
-      "currentPrice": 171.75999450683594,
+      "return": -0.0,
+      "pnl": -0.38,
+      "currentPrice": 172.08999633789062,
       "entryPrice": 172.1300048828125
     },
     {
@@ -554,26 +558,17 @@
       "company": "Leonardo S.p.a.",
       "type": "SHORT",
       "return": -0.3,
-      "pnl": -6.15,
-      "currentPrice": 52.939998626708984,
+      "pnl": -6.92,
+      "currentPrice": 52.959999084472656,
       "entryPrice": 52.779998779296875
-    },
-    {
-      "symbol": "FNV.TO",
-      "company": "Franco-Nevada Corporation",
-      "type": "SHORT",
-      "return": -0.5,
-      "pnl": -10.13,
-      "currentPrice": 231.52999877929688,
-      "entryPrice": 230.3800048828125
     },
     {
       "symbol": "IP.MI",
       "company": "Interpump Group S.p.A.",
       "type": "SHORT",
-      "return": -0.7,
-      "pnl": -13.37,
-      "currentPrice": 33.619998931884766,
+      "return": -0.6,
+      "pnl": -12.16,
+      "currentPrice": 33.599998474121094,
       "entryPrice": 33.400001525878906
     },
     {
@@ -586,12 +581,21 @@
       "entryPrice": 259.5
     },
     {
+      "symbol": "FNV.TO",
+      "company": "Franco-Nevada Corporation",
+      "type": "SHORT",
+      "return": -0.7,
+      "pnl": -14.72,
+      "currentPrice": 232.0500030517578,
+      "entryPrice": 230.3800048828125
+    },
+    {
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
-      "return": -2.4,
-      "pnl": -47.72,
-      "currentPrice": 33.09000015258789,
+      "return": -2.3,
+      "pnl": -47.1,
+      "currentPrice": 33.08000183105469,
       "entryPrice": 32.33000183105469
     }
   ]
