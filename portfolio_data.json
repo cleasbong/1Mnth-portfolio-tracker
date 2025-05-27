@@ -1,15 +1,11 @@
 {
-  "totalPnl": 120.03,
+  "totalPnl": 121.98,
   "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T08:48:06.524188",
-  "entryTime": "2025-05-27T08:48:06.524188",
+  "lastUpdate": "2025-05-27T08:53:22.805463",
+  "entryTime": "2025-05-27T08:53:22.805463",
   "history": [
-    {
-      "time": "05/27 03:25",
-      "pnl": 94.3
-    },
     {
       "time": "05/27 03:30",
       "pnl": 94.24
@@ -205,6 +201,10 @@
     {
       "time": "05/27 08:48",
       "pnl": 120.03
+    },
+    {
+      "time": "05/27 08:53",
+      "pnl": 121.98
     }
   ],
   "positions": [
@@ -590,9 +590,9 @@
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.61,
-      "currentPrice": 44.33430099487305,
+      "return": -0.1,
+      "pnl": -1.46,
+      "currentPrice": 44.31269836425781,
       "entryPrice": 44.34989929199219
     },
     {
@@ -605,6 +605,15 @@
       "entryPrice": 172.1300048828125
     },
     {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.3,
+      "pnl": -5.6,
+      "currentPrice": 21.690000534057617,
+      "entryPrice": 21.75
+    },
+    {
       "symbol": "LDO.MI",
       "company": "Leonardo S.p.a.",
       "type": "SHORT",
@@ -612,15 +621,6 @@
       "pnl": -6.92,
       "currentPrice": 52.959999084472656,
       "entryPrice": 52.779998779296875
-    },
-    {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.4,
-      "pnl": -8.4,
-      "currentPrice": 21.65999984741211,
-      "entryPrice": 21.75
     },
     {
       "symbol": "IP.MI",
