@@ -1,15 +1,11 @@
 {
-  "totalPnl": 114.41,
+  "totalPnl": 108.87,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T05:45:31.481716",
-  "entryTime": "2025-05-27T05:45:31.481716",
+  "lastUpdate": "2025-05-27T06:02:22.045641",
+  "entryTime": "2025-05-27T06:02:22.045641",
   "history": [
-    {
-      "time": "05/27 01:04",
-      "pnl": 72.4
-    },
     {
       "time": "05/27 01:09",
       "pnl": 72.44
@@ -205,6 +201,10 @@
     {
       "time": "05/27 05:45",
       "pnl": 114.41
+    },
+    {
+      "time": "05/27 06:02",
+      "pnl": 108.87
     }
   ],
   "positions": [
@@ -218,15 +218,6 @@
       "entryPrice": 440.20001220703125
     },
     {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 1.1,
-      "pnl": 21.48,
-      "currentPrice": 4298.0,
-      "entryPrice": 4253.0
-    },
-    {
       "symbol": "RY4C.DE",
       "company": "Ryanair Holdings plc",
       "type": "SHORT",
@@ -234,6 +225,15 @@
       "pnl": 21.33,
       "currentPrice": 23.549999237060547,
       "entryPrice": 23.799999237060547
+    },
+    {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 0.8,
+      "pnl": 15.75,
+      "currentPrice": 4286.0,
+      "entryPrice": 4253.0
     },
     {
       "symbol": "ROCK-B.CO",
@@ -281,6 +281,15 @@
       "entryPrice": 49.7599983215332
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.5,
+      "pnl": 9.58,
+      "currentPrice": 1384.5,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "CA.PA",
       "company": "Carrefour SA",
       "type": "SHORT",
@@ -288,15 +297,6 @@
       "pnl": 9.06,
       "currentPrice": 14.5,
       "entryPrice": 14.5649995803833
-    },
-    {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.4,
-      "pnl": 8.84,
-      "currentPrice": 1384.0,
-      "entryPrice": 1378.0
     },
     {
       "symbol": "ABX.TO",
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.48,
-      "currentPrice": 44.4385986328125,
+      "pnl": 3.86,
+      "currentPrice": 44.44839859008789,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -1.87,
-      "currentPrice": 21.729999542236328,
+      "pnl": -2.8,
+      "currentPrice": 21.719999313354492,
       "entryPrice": 21.75
     },
     {
