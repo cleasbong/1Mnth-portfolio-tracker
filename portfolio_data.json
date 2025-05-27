@@ -1,15 +1,11 @@
 {
-  "totalPnl": 118.29,
+  "totalPnl": 117.59,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T08:32:13.570038",
-  "entryTime": "2025-05-27T08:32:13.570038",
+  "lastUpdate": "2025-05-27T08:37:33.683398",
+  "entryTime": "2025-05-27T08:37:33.683398",
   "history": [
-    {
-      "time": "05/27 03:09",
-      "pnl": 92.78
-    },
     {
       "time": "05/27 03:15",
       "pnl": 102.69
@@ -205,6 +201,10 @@
     {
       "time": "05/27 08:32",
       "pnl": 118.29
+    },
+    {
+      "time": "05/27 08:37",
+      "pnl": 117.59
     }
   ],
   "positions": [
@@ -258,8 +258,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 0.7,
-      "pnl": 14.8,
-      "currentPrice": 4284.0,
+      "pnl": 14.32,
+      "currentPrice": 4283.0,
       "entryPrice": 4253.0
     },
     {
@@ -344,15 +344,6 @@
       "entryPrice": 17.40999984741211
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 0.98,
-      "currentPrice": 44.374900817871094,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "MRK.DE",
       "company": "MERCK KGaA",
       "type": "SHORT",
@@ -360,6 +351,15 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.0,
+      "pnl": 0.76,
+      "currentPrice": 44.369300842285156,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
