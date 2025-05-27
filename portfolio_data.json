@@ -1,15 +1,11 @@
 {
-  "totalPnl": 107.92,
+  "totalPnl": 103.33,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:16:34.087025",
-  "entryTime": "2025-05-27T06:16:34.087025",
+  "lastUpdate": "2025-05-27T06:21:49.468233",
+  "entryTime": "2025-05-27T06:21:49.468233",
   "history": [
-    {
-      "time": "05/27 01:14",
-      "pnl": 72.44
-    },
     {
       "time": "05/27 01:20",
       "pnl": 72.42
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:16",
       "pnl": 107.92
+    },
+    {
+      "time": "05/27 06:21",
+      "pnl": 103.33
     }
   ],
   "positions": [
@@ -230,9 +230,9 @@
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
-      "return": 0.9,
-      "pnl": 17.66,
-      "currentPrice": 4290.0,
+      "return": 0.8,
+      "pnl": 16.71,
+      "currentPrice": 4288.0,
       "entryPrice": 4253.0
     },
     {
@@ -290,15 +290,6 @@
       "entryPrice": 14.5649995803833
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.4,
-      "pnl": 8.84,
-      "currentPrice": 1384.0,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "ABX.TO",
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
@@ -306,6 +297,15 @@
       "pnl": 8.53,
       "currentPrice": 26.06999969482422,
       "entryPrice": 26.18000030517578
+    },
+    {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.4,
+      "pnl": 8.1,
+      "currentPrice": 1383.5,
+      "entryPrice": 1378.0
     },
     {
       "symbol": "ADP.PA",
@@ -326,15 +326,6 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.2,
-      "pnl": 3.6,
-      "currentPrice": 44.44160079956055,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
@@ -342,6 +333,15 @@
       "pnl": 3.1,
       "currentPrice": 65.44999694824219,
       "entryPrice": 65.55000305175781
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.56,
+      "currentPrice": 44.415199279785156,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "GET.PA",
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.8,
-      "currentPrice": 21.719999313354492,
+      "return": -0.2,
+      "pnl": -4.67,
+      "currentPrice": 21.700000762939453,
       "entryPrice": 21.75
     },
     {
