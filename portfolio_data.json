@@ -1,15 +1,11 @@
 {
-  "totalPnl": 112.57,
+  "totalPnl": 111.02,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T05:29:44.302413",
-  "entryTime": "2025-05-27T05:29:44.302413",
+  "lastUpdate": "2025-05-27T05:34:59.815533",
+  "entryTime": "2025-05-27T05:34:59.815533",
   "history": [
-    {
-      "time": "05/27 00:48",
-      "pnl": 72.74
-    },
     {
       "time": "05/27 00:53",
       "pnl": 72.54
@@ -205,6 +201,10 @@
     {
       "time": "05/27 05:29",
       "pnl": 112.57
+    },
+    {
+      "time": "05/27 05:34",
+      "pnl": 111.02
     }
   ],
   "positions": [
@@ -326,15 +326,6 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.2,
-      "pnl": 4.0,
-      "currentPrice": 44.451900482177734,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
@@ -342,6 +333,15 @@
       "pnl": 3.1,
       "currentPrice": 65.44999694824219,
       "entryPrice": 65.55000305175781
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.2,
+      "pnl": 2.93,
+      "currentPrice": 44.42449951171875,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "GET.PA",
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.2,
-      "pnl": -3.27,
-      "currentPrice": 21.71500015258789,
+      "pnl": -3.73,
+      "currentPrice": 21.709999084472656,
       "entryPrice": 21.75
     },
     {
