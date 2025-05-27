@@ -1,15 +1,11 @@
 {
-  "totalPnl": 114.3,
+  "totalPnl": 112.49,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T05:13:49.548507",
-  "entryTime": "2025-05-27T05:13:49.548507",
+  "lastUpdate": "2025-05-27T05:19:09.460601",
+  "entryTime": "2025-05-27T05:19:09.460601",
   "history": [
-    {
-      "time": "05/27 00:32",
-      "pnl": 72.74
-    },
     {
       "time": "05/27 00:37",
       "pnl": 72.74
@@ -205,6 +201,10 @@
     {
       "time": "05/27 05:13",
       "pnl": 114.3
+    },
+    {
+      "time": "05/27 05:19",
+      "pnl": 112.49
     }
   ],
   "positions": [
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.86,
-      "currentPrice": 44.44839859008789,
+      "pnl": 3.46,
+      "currentPrice": 44.438201904296875,
       "entryPrice": 44.34989929199219
     },
     {
@@ -596,15 +596,6 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.1,
-      "pnl": -1.4,
-      "currentPrice": 21.735000610351562,
-      "entryPrice": 21.75
-    },
-    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -612,6 +603,15 @@
       "pnl": -1.7,
       "currentPrice": 171.9499969482422,
       "entryPrice": 172.1300048828125
+    },
+    {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -2.8,
+      "currentPrice": 21.719999313354492,
+      "entryPrice": 21.75
     },
     {
       "symbol": "LDO.MI",
