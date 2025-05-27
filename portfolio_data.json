@@ -1,15 +1,11 @@
 {
-  "totalPnl": 124.35,
+  "totalPnl": 129.67,
   "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T07:48:21.911584",
-  "entryTime": "2025-05-27T07:48:21.911584",
+  "lastUpdate": "2025-05-27T07:59:00.793426",
+  "entryTime": "2025-05-27T07:59:00.793426",
   "history": [
-    {
-      "time": "05/27 02:43",
-      "pnl": 96.35
-    },
     {
       "time": "05/27 02:48",
       "pnl": 83.68
@@ -205,6 +201,10 @@
     {
       "time": "05/27 07:48",
       "pnl": 124.35
+    },
+    {
+      "time": "05/27 07:59",
+      "pnl": 129.67
     }
   ],
   "positions": [
@@ -218,12 +218,21 @@
       "entryPrice": 440.20001220703125
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 1.2,
+      "pnl": 23.57,
+      "currentPrice": 1394.0,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 1.1,
-      "pnl": 21.48,
-      "currentPrice": 4298.0,
+      "pnl": 22.91,
+      "currentPrice": 4301.0,
       "entryPrice": 4253.0
     },
     {
@@ -231,8 +240,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 1.1,
-      "pnl": 21.34,
-      "currentPrice": 221.10000610351562,
+      "pnl": 22.27,
+      "currentPrice": 221.1999969482422,
       "entryPrice": 218.8000030517578
     },
     {
@@ -243,15 +252,6 @@
       "pnl": 21.33,
       "currentPrice": 23.549999237060547,
       "entryPrice": 23.799999237060547
-    },
-    {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 1.0,
-      "pnl": 19.89,
-      "currentPrice": 1391.5,
-      "entryPrice": 1378.0
     },
     {
       "symbol": "ROCK-B.CO",
@@ -591,8 +591,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.0,
-      "pnl": -0.38,
-      "currentPrice": 44.3401985168457,
+      "pnl": -0.64,
+      "currentPrice": 44.333499908447266,
       "entryPrice": 44.34989929199219
     },
     {
@@ -618,8 +618,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.4,
-      "pnl": -7.47,
-      "currentPrice": 21.670000076293945,
+      "pnl": -7.93,
+      "currentPrice": 21.665000915527344,
       "entryPrice": 21.75
     },
     {
