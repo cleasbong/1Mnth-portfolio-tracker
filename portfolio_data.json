@@ -1,15 +1,11 @@
 {
-  "totalPnl": 102.13,
+  "totalPnl": 94.3,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T03:20:23.884237",
-  "entryTime": "2025-05-27T03:20:23.884237",
+  "lastUpdate": "2025-05-27T03:25:40.439524",
+  "entryTime": "2025-05-27T03:25:40.439524",
   "history": [
-    {
-      "time": "05/26 22:36",
-      "pnl": 71.81
-    },
     {
       "time": "05/26 22:41",
       "pnl": 67.96
@@ -205,6 +201,10 @@
     {
       "time": "05/27 03:20",
       "pnl": 102.13
+    },
+    {
+      "time": "05/27 03:25",
+      "pnl": 94.3
     }
   ],
   "positions": [
@@ -230,9 +230,9 @@
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
-      "return": 1.0,
-      "pnl": 20.05,
-      "currentPrice": 4295.0,
+      "return": 0.9,
+      "pnl": 19.09,
+      "currentPrice": 4293.0,
       "entryPrice": 4253.0
     },
     {
@@ -299,15 +299,6 @@
       "entryPrice": 116.0999984741211
     },
     {
-      "symbol": "9434.T",
-      "company": "SoftBank Corp.",
-      "type": "LONG",
-      "return": 0.3,
-      "pnl": 6.5,
-      "currentPrice": 219.5,
-      "entryPrice": 218.8000030517578
-    },
-    {
       "symbol": "ENR.DE",
       "company": "Siemens Energy AG",
       "type": "SHORT",
@@ -317,22 +308,22 @@
       "entryPrice": 83.30000305175781
     },
     {
+      "symbol": "9434.T",
+      "company": "SoftBank Corp.",
+      "type": "LONG",
+      "return": 0.3,
+      "pnl": 5.57,
+      "currentPrice": 219.39999389648438,
+      "entryPrice": 218.8000030517578
+    },
+    {
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.3,
-      "pnl": 4.48,
-      "currentPrice": 44.4640007019043,
+      "pnl": 5.21,
+      "currentPrice": 44.48270034790039,
       "entryPrice": 44.34989929199219
-    },
-    {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.2,
-      "pnl": 4.42,
-      "currentPrice": 1381.0,
-      "entryPrice": 1378.0
     },
     {
       "symbol": "AED.BR",
@@ -351,6 +342,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 1.47,
+      "currentPrice": 1379.0,
+      "entryPrice": 1378.0
     },
     {
       "symbol": "MRK.DE",
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.8,
-      "currentPrice": 21.719999313354492,
+      "return": -0.3,
+      "pnl": -6.53,
+      "currentPrice": 21.68000030517578,
       "entryPrice": 21.75
     },
     {
