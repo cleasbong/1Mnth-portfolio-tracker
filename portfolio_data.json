@@ -1,15 +1,11 @@
 {
-  "totalPnl": 98.68,
+  "totalPnl": 103.41,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:37:36.915911",
-  "entryTime": "2025-05-27T06:37:36.915911",
+  "lastUpdate": "2025-05-27T06:42:52.393533",
+  "entryTime": "2025-05-27T06:42:52.393533",
   "history": [
-    {
-      "time": "05/27 01:36",
-      "pnl": 72.24
-    },
     {
       "time": "05/27 01:41",
       "pnl": 72.28
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:37",
       "pnl": 98.68
+    },
+    {
+      "time": "05/27 06:42",
+      "pnl": 103.41
     }
   ],
   "positions": [
@@ -227,6 +227,15 @@
       "entryPrice": 23.799999237060547
     },
     {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 0.8,
+      "pnl": 15.75,
+      "currentPrice": 4286.0,
+      "entryPrice": 4253.0
+    },
+    {
       "symbol": "ROCK-B.CO",
       "company": "Rockwool A/S",
       "type": "SHORT",
@@ -236,21 +245,12 @@
       "entryPrice": 313.20001220703125
     },
     {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 0.7,
-      "pnl": 13.84,
-      "currentPrice": 4282.0,
-      "entryPrice": 4253.0
-    },
-    {
       "symbol": "9434.T",
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 0.6,
-      "pnl": 12.06,
-      "currentPrice": 220.10000610351562,
+      "pnl": 12.99,
+      "currentPrice": 220.1999969482422,
       "entryPrice": 218.8000030517578
     },
     {
@@ -299,6 +299,15 @@
       "entryPrice": 26.18000030517578
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.4,
+      "pnl": 7.37,
+      "currentPrice": 1383.0,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
@@ -317,15 +326,6 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.3,
-      "pnl": 5.16,
-      "currentPrice": 1381.5,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
@@ -335,15 +335,6 @@
       "entryPrice": 65.55000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.2,
-      "pnl": 2.79,
-      "currentPrice": 44.42110061645508,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
@@ -351,6 +342,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.01,
+      "currentPrice": 44.40119934082031,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.2,
-      "pnl": -4.67,
-      "currentPrice": 21.700000762939453,
+      "pnl": -4.2,
+      "currentPrice": 21.704999923706055,
       "entryPrice": 21.75
     },
     {
