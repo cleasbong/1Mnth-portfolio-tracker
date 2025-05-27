@@ -1,15 +1,11 @@
 {
-  "totalPnl": 110.31,
+  "totalPnl": 112.57,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T05:24:28.657741",
-  "entryTime": "2025-05-27T05:24:28.657741",
+  "lastUpdate": "2025-05-27T05:29:44.302413",
+  "entryTime": "2025-05-27T05:29:44.302413",
   "history": [
-    {
-      "time": "05/27 00:42",
-      "pnl": 72.82
-    },
     {
       "time": "05/27 00:48",
       "pnl": 72.74
@@ -205,6 +201,10 @@
     {
       "time": "05/27 05:24",
       "pnl": 110.31
+    },
+    {
+      "time": "05/27 05:29",
+      "pnl": 112.57
     }
   ],
   "positions": [
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.15,
-      "currentPrice": 44.430198669433594,
+      "pnl": 4.0,
+      "currentPrice": 44.451900482177734,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.2,
-      "pnl": -4.67,
-      "currentPrice": 21.700000762939453,
+      "pnl": -3.27,
+      "currentPrice": 21.71500015258789,
       "entryPrice": 21.75
     },
     {
