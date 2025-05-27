@@ -1,15 +1,11 @@
 {
-  "totalPnl": 90.72,
+  "totalPnl": 89.75,
   "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T04:02:40.226255",
-  "entryTime": "2025-05-27T04:02:40.226255",
+  "lastUpdate": "2025-05-27T04:07:56.801368",
+  "entryTime": "2025-05-27T04:07:56.801368",
   "history": [
-    {
-      "time": "05/26 23:27",
-      "pnl": 71.25
-    },
     {
       "time": "05/26 23:33",
       "pnl": 71.89
@@ -205,6 +201,10 @@
     {
       "time": "05/27 04:02",
       "pnl": 90.72
+    },
+    {
+      "time": "05/27 04:07",
+      "pnl": 89.75
     }
   ],
   "positions": [
@@ -329,9 +329,9 @@
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.55,
-      "currentPrice": 44.41490173339844,
+      "return": 0.2,
+      "pnl": 2.71,
+      "currentPrice": 44.41899871826172,
       "entryPrice": 44.34989929199219
     },
     {
@@ -506,6 +506,15 @@
       "entryPrice": 0.0
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.0,
+      "pnl": 0.0,
+      "currentPrice": 1378.0,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "BNZL.L",
       "company": "Bunzl plc",
       "type": "SHORT",
@@ -587,15 +596,6 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.74,
-      "currentPrice": 1377.5,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.8,
-      "currentPrice": 21.719999313354492,
+      "return": -0.2,
+      "pnl": -4.67,
+      "currentPrice": 21.700000762939453,
       "entryPrice": 21.75
     },
     {
