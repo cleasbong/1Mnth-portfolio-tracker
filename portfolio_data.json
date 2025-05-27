@@ -1,15 +1,11 @@
 {
-  "totalPnl": 97.48,
+  "totalPnl": 92.78,
   "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T03:04:34.117136",
-  "entryTime": "2025-05-27T03:04:34.117136",
+  "lastUpdate": "2025-05-27T03:09:50.986767",
+  "entryTime": "2025-05-27T03:09:50.986767",
   "history": [
-    {
-      "time": "05/26 22:20",
-      "pnl": 70.47
-    },
     {
       "time": "05/26 22:26",
       "pnl": 70.23
@@ -205,6 +201,10 @@
     {
       "time": "05/27 03:04",
       "pnl": 97.48
+    },
+    {
+      "time": "05/27 03:09",
+      "pnl": 92.78
     }
   ],
   "positions": [
@@ -218,15 +218,6 @@
       "entryPrice": 440.20001220703125
     },
     {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 1.2,
-      "pnl": 25.3,
-      "currentPrice": 4306.0,
-      "entryPrice": 4253.0
-    },
-    {
       "symbol": "RY4C.DE",
       "company": "Ryanair Holdings plc",
       "type": "SHORT",
@@ -234,6 +225,15 @@
       "pnl": 21.33,
       "currentPrice": 23.549999237060547,
       "entryPrice": 23.799999237060547
+    },
+    {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 0.9,
+      "pnl": 19.09,
+      "currentPrice": 4293.0,
+      "entryPrice": 4253.0
     },
     {
       "symbol": "ROCK-B.CO",
@@ -290,6 +290,15 @@
       "entryPrice": 26.18000030517578
     },
     {
+      "symbol": "9434.T",
+      "company": "SoftBank Corp.",
+      "type": "LONG",
+      "return": 0.4,
+      "pnl": 8.35,
+      "currentPrice": 219.6999969482422,
+      "entryPrice": 218.8000030517578
+    },
+    {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
@@ -308,21 +317,12 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "9434.T",
-      "company": "SoftBank Corp.",
-      "type": "LONG",
-      "return": 0.3,
-      "pnl": 5.57,
-      "currentPrice": 219.39999389648438,
-      "entryPrice": 218.8000030517578
-    },
-    {
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": 0.3,
-      "pnl": 4.94,
-      "currentPrice": 44.47570037841797,
+      "return": 0.2,
+      "pnl": 4.32,
+      "currentPrice": 44.46009826660156,
       "entryPrice": 44.34989929199219
     },
     {
@@ -587,6 +587,15 @@
       "entryPrice": 382.70001220703125
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -1.47,
+      "currentPrice": 1377.0,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -596,24 +605,6 @@
       "entryPrice": 172.1300048828125
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.21,
-      "currentPrice": 1376.5,
-      "entryPrice": 1378.0
-    },
-    {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.3,
-      "pnl": -5.6,
-      "currentPrice": 21.690000534057617,
-      "entryPrice": 21.75
-    },
-    {
       "symbol": "LDO.MI",
       "company": "Leonardo S.p.a.",
       "type": "SHORT",
@@ -621,6 +612,15 @@
       "pnl": -6.92,
       "currentPrice": 52.959999084472656,
       "entryPrice": 52.779998779296875
+    },
+    {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.3,
+      "pnl": -7.0,
+      "currentPrice": 21.674999237060547,
+      "entryPrice": 21.75
     },
     {
       "symbol": "IP.MI",
