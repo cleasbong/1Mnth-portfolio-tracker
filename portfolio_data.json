@@ -1,15 +1,11 @@
 {
-  "totalPnl": 117.59,
+  "totalPnl": 119.53,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T08:37:33.683398",
-  "entryTime": "2025-05-27T08:37:33.683398",
+  "lastUpdate": "2025-05-27T08:42:49.407815",
+  "entryTime": "2025-05-27T08:42:49.407815",
   "history": [
-    {
-      "time": "05/27 03:15",
-      "pnl": 102.69
-    },
     {
       "time": "05/27 03:20",
       "pnl": 102.13
@@ -205,6 +201,10 @@
     {
       "time": "05/27 08:37",
       "pnl": 117.59
+    },
+    {
+      "time": "05/27 08:42",
+      "pnl": 119.53
     }
   ],
   "positions": [
@@ -222,8 +222,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 1.1,
-      "pnl": 22.27,
-      "currentPrice": 221.1999969482422,
+      "pnl": 23.2,
+      "currentPrice": 221.3000030517578,
       "entryPrice": 218.8000030517578
     },
     {
@@ -239,9 +239,9 @@
       "symbol": "8801.T",
       "company": "Mitsui Fudosan Co., Ltd.",
       "type": "LONG",
-      "return": 0.9,
-      "pnl": 19.15,
-      "currentPrice": 1391.0,
+      "return": 1.0,
+      "pnl": 20.63,
+      "currentPrice": 1392.0,
       "entryPrice": 1378.0
     },
     {
@@ -357,8 +357,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.0,
-      "pnl": 0.76,
-      "currentPrice": 44.369300842285156,
+      "pnl": 0.3,
+      "currentPrice": 44.357601165771484,
       "entryPrice": 44.34989929199219
     },
     {
