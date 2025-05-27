@@ -1,15 +1,11 @@
 {
-  "totalPnl": 108.87,
+  "totalPnl": 107.92,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:02:22.045641",
-  "entryTime": "2025-05-27T06:02:22.045641",
+  "lastUpdate": "2025-05-27T06:16:34.087025",
+  "entryTime": "2025-05-27T06:16:34.087025",
   "history": [
-    {
-      "time": "05/27 01:09",
-      "pnl": 72.44
-    },
     {
       "time": "05/27 01:14",
       "pnl": 72.44
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:02",
       "pnl": 108.87
+    },
+    {
+      "time": "05/27 06:16",
+      "pnl": 107.92
     }
   ],
   "positions": [
@@ -230,9 +230,9 @@
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
-      "return": 0.8,
-      "pnl": 15.75,
-      "currentPrice": 4286.0,
+      "return": 0.9,
+      "pnl": 17.66,
+      "currentPrice": 4290.0,
       "entryPrice": 4253.0
     },
     {
@@ -248,9 +248,9 @@
       "symbol": "9434.T",
       "company": "SoftBank Corp.",
       "type": "LONG",
-      "return": 0.6,
-      "pnl": 12.99,
-      "currentPrice": 220.1999969482422,
+      "return": 0.5,
+      "pnl": 11.13,
+      "currentPrice": 220.0,
       "entryPrice": 218.8000030517578
     },
     {
@@ -281,15 +281,6 @@
       "entryPrice": 49.7599983215332
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.5,
-      "pnl": 9.58,
-      "currentPrice": 1384.5,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "CA.PA",
       "company": "Carrefour SA",
       "type": "SHORT",
@@ -297,6 +288,15 @@
       "pnl": 9.06,
       "currentPrice": 14.5,
       "entryPrice": 14.5649995803833
+    },
+    {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.4,
+      "pnl": 8.84,
+      "currentPrice": 1384.0,
+      "entryPrice": 1378.0
     },
     {
       "symbol": "ABX.TO",
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.86,
-      "currentPrice": 44.44839859008789,
+      "pnl": 3.6,
+      "currentPrice": 44.44160079956055,
       "entryPrice": 44.34989929199219
     },
     {
