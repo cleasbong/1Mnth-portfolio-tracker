@@ -1,15 +1,11 @@
 {
-  "totalPnl": 101.67,
+  "totalPnl": 101.31,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:27:05.334519",
-  "entryTime": "2025-05-27T06:27:05.334519",
+  "lastUpdate": "2025-05-27T06:32:21.074214",
+  "entryTime": "2025-05-27T06:32:21.074214",
   "history": [
-    {
-      "time": "05/27 01:25",
-      "pnl": 70.97
-    },
     {
       "time": "05/27 01:31",
       "pnl": 70.94
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:27",
       "pnl": 101.67
+    },
+    {
+      "time": "05/27 06:32",
+      "pnl": 101.31
     }
   ],
   "positions": [
@@ -227,15 +227,6 @@
       "entryPrice": 23.799999237060547
     },
     {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 0.8,
-      "pnl": 15.75,
-      "currentPrice": 4286.0,
-      "entryPrice": 4253.0
-    },
-    {
       "symbol": "ROCK-B.CO",
       "company": "Rockwool A/S",
       "type": "SHORT",
@@ -243,6 +234,15 @@
       "pnl": 14.91,
       "currentPrice": 310.8999938964844,
       "entryPrice": 313.20001220703125
+    },
+    {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 0.7,
+      "pnl": 14.8,
+      "currentPrice": 4284.0,
+      "entryPrice": 4253.0
     },
     {
       "symbol": "9434.T",
@@ -299,6 +299,15 @@
       "entryPrice": 26.18000030517578
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.4,
+      "pnl": 7.37,
+      "currentPrice": 1383.0,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
@@ -306,15 +315,6 @@
       "pnl": 6.99,
       "currentPrice": 115.69999694824219,
       "entryPrice": 116.0999984741211
-    },
-    {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.3,
-      "pnl": 6.63,
-      "currentPrice": 1382.5,
-      "entryPrice": 1378.0
     },
     {
       "symbol": "ENR.DE",
@@ -335,15 +335,6 @@
       "entryPrice": 65.55000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.41,
-      "currentPrice": 44.41130065917969,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
@@ -351,6 +342,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.27,
+      "currentPrice": 44.40769958496094,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
