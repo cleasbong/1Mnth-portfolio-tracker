@@ -1,15 +1,11 @@
 {
-  "totalPnl": 120.88,
-  "winRate": 32.0,
+  "totalPnl": 69.68,
+  "winRate": 30.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T08:58:39.128913",
-  "entryTime": "2025-05-27T08:58:39.128913",
+  "lastUpdate": "2025-05-27T09:04:33.210009",
+  "entryTime": "2025-05-27T09:04:33.210009",
   "history": [
-    {
-      "time": "05/27 03:36",
-      "pnl": 95.19
-    },
     {
       "time": "05/27 03:41",
       "pnl": 93.72
@@ -205,6 +201,10 @@
     {
       "time": "05/27 08:58",
       "pnl": 120.88
+    },
+    {
+      "time": "05/27 09:04",
+      "pnl": 69.68
     }
   ],
   "positions": [
@@ -212,9 +212,9 @@
       "symbol": "ZEAL.CO",
       "company": "Zealand Pharma A/S",
       "type": "LONG",
-      "return": 2.2,
-      "pnl": 44.27,
-      "currentPrice": 449.79998779296875,
+      "return": 1.3,
+      "pnl": 26.75,
+      "currentPrice": 446.0,
       "entryPrice": 440.20001220703125
     },
     {
@@ -245,15 +245,6 @@
       "entryPrice": 1378.0
     },
     {
-      "symbol": "ROCK-B.CO",
-      "company": "Rockwool A/S",
-      "type": "SHORT",
-      "return": 0.7,
-      "pnl": 14.91,
-      "currentPrice": 310.8999938964844,
-      "entryPrice": 313.20001220703125
-    },
-    {
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
@@ -270,15 +261,6 @@
       "pnl": 10.75,
       "currentPrice": 140.85000610351562,
       "entryPrice": 141.60000610351562
-    },
-    {
-      "symbol": "SAAB-B.ST",
-      "company": "Saab AB",
-      "type": "SHORT",
-      "return": 0.7,
-      "pnl": 10.75,
-      "currentPrice": 472.70001220703125,
-      "entryPrice": 475.8500061035156
     },
     {
       "symbol": "BANB.SW",
@@ -324,6 +306,15 @@
       "pnl": 6.34,
       "currentPrice": 83.04000091552734,
       "entryPrice": 83.30000305175781
+    },
+    {
+      "symbol": "SAAB-B.ST",
+      "company": "Saab AB",
+      "type": "SHORT",
+      "return": 0.3,
+      "pnl": 4.27,
+      "currentPrice": 474.6000061035156,
+      "entryPrice": 475.8500061035156
     },
     {
       "symbol": "AED.BR",
@@ -600,8 +591,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -2.55,
-      "currentPrice": 44.2848014831543,
+      "pnl": -1.88,
+      "currentPrice": 44.301998138427734,
       "entryPrice": 44.34989929199219
     },
     {
@@ -630,6 +621,15 @@
       "pnl": -12.16,
       "currentPrice": 33.599998474121094,
       "entryPrice": 33.400001525878906
+    },
+    {
+      "symbol": "ROCK-B.CO",
+      "company": "Rockwool A/S",
+      "type": "SHORT",
+      "return": -0.6,
+      "pnl": -12.96,
+      "currentPrice": 315.20001220703125,
+      "entryPrice": 313.20001220703125
     },
     {
       "symbol": "HO.PA",
