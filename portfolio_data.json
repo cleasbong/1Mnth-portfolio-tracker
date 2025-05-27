@@ -1,15 +1,11 @@
 {
-  "totalPnl": 101.31,
+  "totalPnl": 98.68,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:32:21.074214",
-  "entryTime": "2025-05-27T06:32:21.074214",
+  "lastUpdate": "2025-05-27T06:37:36.915911",
+  "entryTime": "2025-05-27T06:37:36.915911",
   "history": [
-    {
-      "time": "05/27 01:31",
-      "pnl": 70.94
-    },
     {
       "time": "05/27 01:36",
       "pnl": 72.24
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:32",
       "pnl": 101.31
+    },
+    {
+      "time": "05/27 06:37",
+      "pnl": 98.68
     }
   ],
   "positions": [
@@ -240,8 +240,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 0.7,
-      "pnl": 14.8,
-      "currentPrice": 4284.0,
+      "pnl": 13.84,
+      "currentPrice": 4282.0,
       "entryPrice": 4253.0
     },
     {
@@ -249,8 +249,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 0.6,
-      "pnl": 12.99,
-      "currentPrice": 220.1999969482422,
+      "pnl": 12.06,
+      "currentPrice": 220.10000610351562,
       "entryPrice": 218.8000030517578
     },
     {
@@ -299,15 +299,6 @@
       "entryPrice": 26.18000030517578
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.4,
-      "pnl": 7.37,
-      "currentPrice": 1383.0,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
@@ -326,6 +317,15 @@
       "entryPrice": 83.30000305175781
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.3,
+      "pnl": 5.16,
+      "currentPrice": 1381.5,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "AED.BR",
       "company": "Aedifica SA",
       "type": "SHORT",
@@ -335,6 +335,15 @@
       "entryPrice": 65.55000305175781
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.2,
+      "pnl": 2.79,
+      "currentPrice": 44.42110061645508,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
@@ -342,15 +351,6 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.27,
-      "currentPrice": 44.40769958496094,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.3,
-      "pnl": -5.6,
-      "currentPrice": 21.690000534057617,
+      "return": -0.2,
+      "pnl": -4.67,
+      "currentPrice": 21.700000762939453,
       "entryPrice": 21.75
     },
     {
