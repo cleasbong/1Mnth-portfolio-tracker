@@ -1,15 +1,11 @@
 {
-  "totalPnl": -230.4,
-  "winRate": 26.0,
-  "avgReturn": -0.2,
+  "totalPnl": -316.58,
+  "winRate": 22.0,
+  "avgReturn": -0.3,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T09:52:30.045744",
-  "entryTime": "2025-05-27T09:52:30.045744",
+  "lastUpdate": "2025-05-27T10:02:09.684627",
+  "entryTime": "2025-05-27T10:02:09.684627",
   "history": [
-    {
-      "time": "05/27 04:23",
-      "pnl": 104.38
-    },
     {
       "time": "05/27 04:29",
       "pnl": 102.44
@@ -205,6 +201,10 @@
     {
       "time": "05/27 09:52",
       "pnl": -230.4
+    },
+    {
+      "time": "05/27 10:02",
+      "pnl": -316.58
     }
   ],
   "positions": [
@@ -212,18 +212,18 @@
       "symbol": "ZEAL.CO",
       "company": "Zealand Pharma A/S",
       "type": "LONG",
-      "return": 2.0,
-      "pnl": 40.12,
-      "currentPrice": 448.8999938964844,
+      "return": 2.5,
+      "pnl": 49.81,
+      "currentPrice": 451.0,
       "entryPrice": 440.20001220703125
     },
     {
       "symbol": "SAAB-B.ST",
       "company": "Saab AB",
       "type": "SHORT",
-      "return": 1.9,
-      "pnl": 30.72,
-      "currentPrice": 466.8500061035156,
+      "return": 1.7,
+      "pnl": 27.13,
+      "currentPrice": 467.8999938964844,
       "entryPrice": 475.8500061035156
     },
     {
@@ -236,15 +236,6 @@
       "entryPrice": 218.8000030517578
     },
     {
-      "symbol": "UHR.SW",
-      "company": "The Swatch Group AG",
-      "type": "SHORT",
-      "return": 1.1,
-      "pnl": 21.51,
-      "currentPrice": 140.10000610351562,
-      "entryPrice": 141.60000610351562
-    },
-    {
       "symbol": "8801.T",
       "company": "Mitsui Fudosan Co., Ltd.",
       "type": "LONG",
@@ -252,6 +243,15 @@
       "pnl": 20.63,
       "currentPrice": 1392.0,
       "entryPrice": 1378.0
+    },
+    {
+      "symbol": "UHR.SW",
+      "company": "The Swatch Group AG",
+      "type": "SHORT",
+      "return": 0.9,
+      "pnl": 17.92,
+      "currentPrice": 140.35000610351562,
+      "entryPrice": 141.60000610351562
     },
     {
       "symbol": "9719.T",
@@ -266,19 +266,10 @@
       "symbol": "KGF.L",
       "company": "Kingfisher plc",
       "type": "SHORT",
-      "return": 0.5,
-      "pnl": 9.58,
-      "currentPrice": 295.3999938964844,
+      "return": 0.6,
+      "pnl": 12.31,
+      "currentPrice": 295.0,
       "entryPrice": 296.79998779296875
-    },
-    {
-      "symbol": "CA.PA",
-      "company": "Carrefour SA",
-      "type": "SHORT",
-      "return": 0.4,
-      "pnl": 9.06,
-      "currentPrice": 14.5,
-      "entryPrice": 14.5649995803833
     },
     {
       "symbol": "ABX.TO",
@@ -290,40 +281,31 @@
       "entryPrice": 26.18000030517578
     },
     {
-      "symbol": "AED.BR",
-      "company": "Aedifica SA",
-      "type": "SHORT",
-      "return": 0.3,
-      "pnl": 6.19,
-      "currentPrice": 65.3499984741211,
-      "entryPrice": 65.55000305175781
-    },
-    {
-      "symbol": "RY4C.DE",
-      "company": "Ryanair Holdings plc",
+      "symbol": "CA.PA",
+      "company": "Carrefour SA",
       "type": "SHORT",
       "return": 0.2,
-      "pnl": 4.26,
-      "currentPrice": 23.75,
-      "entryPrice": 23.799999237060547
-    },
-    {
-      "symbol": "GET.PA",
-      "company": "Getlink SE",
-      "type": "SHORT",
-      "return": 0.2,
-      "pnl": 3.5,
-      "currentPrice": 17.3799991607666,
-      "entryPrice": 17.40999984741211
+      "pnl": 4.18,
+      "currentPrice": 14.53499984741211,
+      "entryPrice": 14.5649995803833
     },
     {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
-      "return": 0.2,
-      "pnl": 3.5,
-      "currentPrice": 115.9000015258789,
+      "return": 0.1,
+      "pnl": 1.75,
+      "currentPrice": 116.0,
       "entryPrice": 116.0999984741211
+    },
+    {
+      "symbol": "GET.PA",
+      "company": "Getlink SE",
+      "type": "SHORT",
+      "return": 0.1,
+      "pnl": 1.17,
+      "currentPrice": 17.399999618530273,
+      "entryPrice": 17.40999984741211
     },
     {
       "symbol": "BDEV.L",
@@ -461,15 +443,6 @@
       "entryPrice": 108.54000091552734
     },
     {
-      "symbol": "MRK.DE",
-      "company": "MERCK KGaA",
-      "type": "SHORT",
-      "return": -0.0,
-      "pnl": -0.88,
-      "currentPrice": 115.94999694824219,
-      "entryPrice": 115.9000015258789
-    },
-    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -477,6 +450,42 @@
       "pnl": -1.7,
       "currentPrice": 171.9499969482422,
       "entryPrice": 172.1300048828125
+    },
+    {
+      "symbol": "TSCO.L",
+      "company": "Tesco PLC",
+      "type": "SHORT",
+      "return": -0.1,
+      "pnl": -2.12,
+      "currentPrice": 383.1000061035156,
+      "entryPrice": 382.70001220703125
+    },
+    {
+      "symbol": "ROCK-B.CO",
+      "company": "Rockwool A/S",
+      "type": "SHORT",
+      "return": -0.1,
+      "pnl": -2.27,
+      "currentPrice": 313.54998779296875,
+      "entryPrice": 313.20001220703125
+    },
+    {
+      "symbol": "AED.BR",
+      "company": "Aedifica SA",
+      "type": "SHORT",
+      "return": -0.2,
+      "pnl": -3.1,
+      "currentPrice": 65.6500015258789,
+      "entryPrice": 65.55000305175781
+    },
+    {
+      "symbol": "MRK.DE",
+      "company": "MERCK KGaA",
+      "type": "SHORT",
+      "return": -0.2,
+      "pnl": -3.5,
+      "currentPrice": 116.0999984741211,
+      "entryPrice": 115.9000015258789
     },
     {
       "symbol": "COL.AX",
@@ -492,81 +501,36 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.3,
-      "pnl": -5.86,
-      "currentPrice": 44.20064163208008,
+      "pnl": -5.83,
+      "currentPrice": 44.20140075683594,
       "entryPrice": 44.34989929199219
-    },
-    {
-      "symbol": "TSCO.L",
-      "company": "Tesco PLC",
-      "type": "SHORT",
-      "return": -0.4,
-      "pnl": -7.29,
-      "currentPrice": 384.0733947753906,
-      "entryPrice": 382.70001220703125
-    },
-    {
-      "symbol": "ROCK-B.CO",
-      "company": "Rockwool A/S",
-      "type": "SHORT",
-      "return": -0.4,
-      "pnl": -7.78,
-      "currentPrice": 314.3999938964844,
-      "entryPrice": 313.20001220703125
-    },
-    {
-      "symbol": "RS1.L",
-      "company": "RS Group plc",
-      "type": "SHORT",
-      "return": -0.6,
-      "pnl": -12.88,
-      "currentPrice": 555.0,
-      "entryPrice": 551.5
     },
     {
       "symbol": "ENR.DE",
       "company": "Siemens Energy AG",
       "type": "SHORT",
-      "return": -0.7,
-      "pnl": -14.14,
-      "currentPrice": 83.87999725341797,
+      "return": -0.6,
+      "pnl": -12.19,
+      "currentPrice": 83.80000305175781,
       "entryPrice": 83.30000305175781
-    },
-    {
-      "symbol": "PSN.L",
-      "company": "Persimmon Plc",
-      "type": "SHORT",
-      "return": -0.9,
-      "pnl": -17.41,
-      "currentPrice": 1334.8480224609375,
-      "entryPrice": 1323.5
     },
     {
       "symbol": "BANB.SW",
       "company": "Bachem Holding AG",
       "type": "SHORT",
-      "return": -0.9,
-      "pnl": -17.95,
-      "currentPrice": 50.20000076293945,
+      "return": -0.7,
+      "pnl": -13.87,
+      "currentPrice": 50.099998474121094,
       "entryPrice": 49.7599983215332
     },
     {
-      "symbol": "GFTU.L",
-      "company": "Grafton Group plc",
+      "symbol": "RY4C.DE",
+      "company": "Ryanair Holdings plc",
       "type": "SHORT",
-      "return": -1.0,
-      "pnl": -18.68,
-      "currentPrice": 1007.7999877929688,
-      "entryPrice": 997.5999755859375
-    },
-    {
-      "symbol": "TW.L",
-      "company": "Taylor Wimpey plc",
-      "type": "SHORT",
-      "return": -1.0,
-      "pnl": -18.68,
-      "currentPrice": 118.55000305175781,
-      "entryPrice": 117.3499984741211
+      "return": -0.8,
+      "pnl": -17.06,
+      "currentPrice": 24.0,
+      "entryPrice": 23.799999237060547
     },
     {
       "symbol": "FNV.TO",
@@ -578,12 +542,21 @@
       "entryPrice": 230.3800048828125
     },
     {
+      "symbol": "RS1.L",
+      "company": "RS Group plc",
+      "type": "SHORT",
+      "return": -1.2,
+      "pnl": -23.93,
+      "currentPrice": 558.0,
+      "entryPrice": 551.5
+    },
+    {
       "symbol": "SBRY.L",
       "company": "J Sainsbury plc",
       "type": "SHORT",
-      "return": -1.0,
-      "pnl": -21.25,
-      "currentPrice": 289.6000061035156,
+      "return": -1.2,
+      "pnl": -24.08,
+      "currentPrice": 290.0,
       "entryPrice": 286.6000061035156
     },
     {
@@ -596,22 +569,22 @@
       "entryPrice": 32.33000183105469
     },
     {
-      "symbol": "BNZL.L",
-      "company": "Bunzl plc",
+      "symbol": "PSN.L",
+      "company": "Persimmon Plc",
       "type": "SHORT",
-      "return": -1.3,
-      "pnl": -27.27,
-      "currentPrice": 2414.0,
-      "entryPrice": 2382.0
+      "return": -1.2,
+      "pnl": -25.31,
+      "currentPrice": 1340.0,
+      "entryPrice": 1323.5
     },
     {
-      "symbol": "IP.MI",
-      "company": "Interpump Group S.p.A.",
+      "symbol": "TW.L",
+      "company": "Taylor Wimpey plc",
       "type": "SHORT",
       "return": -1.4,
-      "pnl": -27.96,
-      "currentPrice": 33.86000061035156,
-      "entryPrice": 33.400001525878906
+      "pnl": -25.69,
+      "currentPrice": 119.0,
+      "entryPrice": 117.3499984741211
     },
     {
       "symbol": "HO.PA",
@@ -623,31 +596,40 @@
       "entryPrice": 259.5
     },
     {
+      "symbol": "GFTU.L",
+      "company": "Grafton Group plc",
+      "type": "SHORT",
+      "return": -1.6,
+      "pnl": -29.3,
+      "currentPrice": 1013.5999755859375,
+      "entryPrice": 997.5999755859375
+    },
+    {
+      "symbol": "IP.MI",
+      "company": "Interpump Group S.p.A.",
+      "type": "SHORT",
+      "return": -1.5,
+      "pnl": -30.39,
+      "currentPrice": 33.900001525878906,
+      "entryPrice": 33.400001525878906
+    },
+    {
       "symbol": "WPP.L",
       "company": "WPP plc",
       "type": "SHORT",
       "return": -1.6,
-      "pnl": -31.62,
-      "currentPrice": 600.4080200195312,
+      "pnl": -32.97,
+      "currentPrice": 600.7999877929688,
       "entryPrice": 591.2000122070312
     },
     {
-      "symbol": "LAND.L",
-      "company": "Land Securities Group",
+      "symbol": "BNZL.L",
+      "company": "Bunzl plc",
       "type": "SHORT",
       "return": -1.6,
-      "pnl": -33.31,
-      "currentPrice": 619.5,
-      "entryPrice": 609.5
-    },
-    {
-      "symbol": "SMIN.L",
-      "company": "Smiths Group plc",
-      "type": "SHORT",
-      "return": -2.0,
-      "pnl": -39.96,
-      "currentPrice": 2176.0,
-      "entryPrice": 2134.0
+      "pnl": -33.0,
+      "currentPrice": 2420.724609375,
+      "entryPrice": 2382.0
     },
     {
       "symbol": "LDO.MI",
@@ -657,6 +639,24 @@
       "pnl": -43.08,
       "currentPrice": 53.900001525878906,
       "entryPrice": 52.779998779296875
+    },
+    {
+      "symbol": "SMIN.L",
+      "company": "Smiths Group plc",
+      "type": "SHORT",
+      "return": -2.2,
+      "pnl": -43.76,
+      "currentPrice": 2180.0,
+      "entryPrice": 2134.0
+    },
+    {
+      "symbol": "LAND.L",
+      "company": "Land Securities Group",
+      "type": "SHORT",
+      "return": -2.3,
+      "pnl": -46.55,
+      "currentPrice": 623.4760131835938,
+      "entryPrice": 609.5
     }
   ]
 }
