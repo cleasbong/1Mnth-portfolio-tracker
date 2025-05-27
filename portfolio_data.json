@@ -1,15 +1,11 @@
 {
-  "totalPnl": 118.82,
-  "winRate": 34.0,
+  "totalPnl": 117.63,
+  "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T07:32:15.915118",
-  "entryTime": "2025-05-27T07:32:15.915118",
+  "lastUpdate": "2025-05-27T07:37:35.218641",
+  "entryTime": "2025-05-27T07:37:35.218641",
   "history": [
-    {
-      "time": "05/27 02:18",
-      "pnl": 72.78
-    },
     {
       "time": "05/27 02:23",
       "pnl": 77.97
@@ -205,6 +201,10 @@
     {
       "time": "05/27 07:32",
       "pnl": 118.82
+    },
+    {
+      "time": "05/27 07:37",
+      "pnl": 117.63
     }
   ],
   "positions": [
@@ -222,8 +222,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 1.1,
-      "pnl": 21.48,
-      "currentPrice": 4298.0,
+      "pnl": 21.96,
+      "currentPrice": 4299.0,
       "entryPrice": 4253.0
     },
     {
@@ -239,9 +239,9 @@
       "symbol": "9434.T",
       "company": "SoftBank Corp.",
       "type": "LONG",
-      "return": 0.8,
-      "pnl": 16.7,
-      "currentPrice": 220.60000610351562,
+      "return": 0.9,
+      "pnl": 17.63,
+      "currentPrice": 220.6999969482422,
       "entryPrice": 218.8000030517578
     },
     {
@@ -258,8 +258,8 @@
       "company": "Mitsui Fudosan Co., Ltd.",
       "type": "LONG",
       "return": 0.7,
-      "pnl": 14.73,
-      "currentPrice": 1388.0,
+      "pnl": 13.26,
+      "currentPrice": 1387.0,
       "entryPrice": 1378.0
     },
     {
@@ -351,15 +351,6 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.15,
-      "currentPrice": 44.35369873046875,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
@@ -596,6 +587,15 @@
       "entryPrice": 382.70001220703125
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": -0.0,
+      "pnl": -0.04,
+      "currentPrice": 44.3489990234375,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.2,
-      "pnl": -3.73,
-      "currentPrice": 21.709999084472656,
+      "pnl": -4.67,
+      "currentPrice": 21.700000762939453,
       "entryPrice": 21.75
     },
     {
