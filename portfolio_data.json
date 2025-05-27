@@ -1,15 +1,11 @@
 {
-  "totalPnl": 103.33,
+  "totalPnl": 101.67,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:21:49.468233",
-  "entryTime": "2025-05-27T06:21:49.468233",
+  "lastUpdate": "2025-05-27T06:27:05.334519",
+  "entryTime": "2025-05-27T06:27:05.334519",
   "history": [
-    {
-      "time": "05/27 01:20",
-      "pnl": 72.42
-    },
     {
       "time": "05/27 01:25",
       "pnl": 70.97
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:21",
       "pnl": 103.33
+    },
+    {
+      "time": "05/27 06:27",
+      "pnl": 101.67
     }
   ],
   "positions": [
@@ -231,8 +231,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 0.8,
-      "pnl": 16.71,
-      "currentPrice": 4288.0,
+      "pnl": 15.75,
+      "currentPrice": 4286.0,
       "entryPrice": 4253.0
     },
     {
@@ -248,9 +248,9 @@
       "symbol": "9434.T",
       "company": "SoftBank Corp.",
       "type": "LONG",
-      "return": 0.5,
-      "pnl": 11.13,
-      "currentPrice": 220.0,
+      "return": 0.6,
+      "pnl": 12.99,
+      "currentPrice": 220.1999969482422,
       "entryPrice": 218.8000030517578
     },
     {
@@ -299,15 +299,6 @@
       "entryPrice": 26.18000030517578
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.4,
-      "pnl": 8.1,
-      "currentPrice": 1383.5,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
@@ -315,6 +306,15 @@
       "pnl": 6.99,
       "currentPrice": 115.69999694824219,
       "entryPrice": 116.0999984741211
+    },
+    {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.3,
+      "pnl": 6.63,
+      "currentPrice": 1382.5,
+      "entryPrice": 1378.0
     },
     {
       "symbol": "ENR.DE",
@@ -339,8 +339,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.1,
-      "pnl": 2.56,
-      "currentPrice": 44.415199279785156,
+      "pnl": 2.41,
+      "currentPrice": 44.41130065917969,
       "entryPrice": 44.34989929199219
     },
     {
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.2,
-      "pnl": -4.67,
-      "currentPrice": 21.700000762939453,
+      "return": -0.3,
+      "pnl": -5.6,
+      "currentPrice": 21.690000534057617,
       "entryPrice": 21.75
     },
     {
