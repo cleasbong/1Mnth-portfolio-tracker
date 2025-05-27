@@ -1,15 +1,11 @@
 {
-  "totalPnl": 72.78,
-  "winRate": 28.0,
+  "totalPnl": 77.97,
+  "winRate": 30.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T02:18:28.675570",
-  "entryTime": "2025-05-27T02:18:28.675570",
+  "lastUpdate": "2025-05-27T02:23:45.517297",
+  "entryTime": "2025-05-27T02:23:45.517297",
   "history": [
-    {
-      "time": "05/26 21:24",
-      "pnl": 51.65
-    },
     {
       "time": "05/26 21:29",
       "pnl": 47.57
@@ -205,6 +201,10 @@
     {
       "time": "05/27 02:18",
       "pnl": 72.78
+    },
+    {
+      "time": "05/27 02:23",
+      "pnl": 77.97
     }
   ],
   "positions": [
@@ -234,6 +234,15 @@
       "pnl": 14.91,
       "currentPrice": 310.8999938964844,
       "entryPrice": 313.20001220703125
+    },
+    {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 0.7,
+      "pnl": 14.8,
+      "currentPrice": 4284.0,
+      "entryPrice": 4253.0
     },
     {
       "symbol": "UHR.SW",
@@ -303,8 +312,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.29,
-      "currentPrice": 44.433799743652344,
+      "pnl": 4.06,
+      "currentPrice": 44.45349884033203,
       "entryPrice": 44.34989929199219
     },
     {
@@ -443,15 +452,6 @@
       "entryPrice": 46.77000045776367
     },
     {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.0,
-      "currentPrice": 4253.0,
-      "entryPrice": 4253.0
-    },
-    {
       "symbol": "FDX",
       "company": "FedEx Corporation",
       "type": "LONG",
@@ -495,15 +495,6 @@
       "pnl": 0.0,
       "currentPrice": 0.0,
       "entryPrice": 0.0
-    },
-    {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.0,
-      "currentPrice": 1378.0,
-      "entryPrice": 1378.0
     },
     {
       "symbol": "BNZL.L",
@@ -560,15 +551,6 @@
       "entryPrice": 39.56999969482422
     },
     {
-      "symbol": "9434.T",
-      "company": "SoftBank Corp.",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.0,
-      "currentPrice": 218.8000030517578,
-      "entryPrice": 218.8000030517578
-    },
-    {
       "symbol": "A",
       "company": "Agilent Technologies",
       "type": "SHORT",
@@ -587,15 +569,6 @@
       "entryPrice": 117.3499984741211
     },
     {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.0,
-      "currentPrice": 21.75,
-      "entryPrice": 21.75
-    },
-    {
       "symbol": "TSCO.L",
       "company": "Tesco PLC",
       "type": "SHORT",
@@ -612,6 +585,33 @@
       "pnl": -1.7,
       "currentPrice": 171.9499969482422,
       "entryPrice": 172.1300048828125
+    },
+    {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -1.87,
+      "currentPrice": 21.729999542236328,
+      "entryPrice": 21.75
+    },
+    {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -2.95,
+      "currentPrice": 1376.0,
+      "entryPrice": 1378.0
+    },
+    {
+      "symbol": "9434.T",
+      "company": "SoftBank Corp.",
+      "type": "LONG",
+      "return": -0.3,
+      "pnl": -5.57,
+      "currentPrice": 218.1999969482422,
+      "entryPrice": 218.8000030517578
     },
     {
       "symbol": "LDO.MI",
