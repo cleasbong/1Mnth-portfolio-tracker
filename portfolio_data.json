@@ -1,15 +1,11 @@
 {
-  "totalPnl": 102.44,
+  "totalPnl": 103.44,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T04:29:02.906420",
-  "entryTime": "2025-05-27T04:29:02.906420",
+  "lastUpdate": "2025-05-27T04:34:18.920731",
+  "entryTime": "2025-05-27T04:34:18.920731",
   "history": [
-    {
-      "time": "05/26 23:54",
-      "pnl": 71.03
-    },
     {
       "time": "05/26 23:59",
       "pnl": 71.42
@@ -205,6 +201,10 @@
     {
       "time": "05/27 04:29",
       "pnl": 102.44
+    },
+    {
+      "time": "05/27 04:34",
+      "pnl": 103.44
     }
   ],
   "positions": [
@@ -222,8 +222,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 1.1,
-      "pnl": 22.91,
-      "currentPrice": 4301.0,
+      "pnl": 22.44,
+      "currentPrice": 4300.0,
       "entryPrice": 4253.0
     },
     {
@@ -294,8 +294,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 0.4,
-      "pnl": 7.42,
-      "currentPrice": 219.60000610351562,
+      "pnl": 8.35,
+      "currentPrice": 219.6999969482422,
       "entryPrice": 218.8000030517578
     },
     {
@@ -317,13 +317,13 @@
       "entryPrice": 83.30000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
       "type": "LONG",
-      "return": 0.2,
-      "pnl": 3.41,
-      "currentPrice": 44.43669891357422,
-      "entryPrice": 44.34989929199219
+      "return": 0.3,
+      "pnl": 5.89,
+      "currentPrice": 1382.0,
+      "entryPrice": 1378.0
     },
     {
       "symbol": "AED.BR",
@@ -335,13 +335,13 @@
       "entryPrice": 65.55000305175781
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
       "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.95,
-      "currentPrice": 1380.0,
-      "entryPrice": 1378.0
+      "return": 0.2,
+      "pnl": 2.87,
+      "currentPrice": 44.423099517822266,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "GET.PA",
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.2,
-      "pnl": -3.73,
-      "currentPrice": 21.709999084472656,
+      "return": -0.3,
+      "pnl": -5.6,
+      "currentPrice": 21.690000534057617,
       "entryPrice": 21.75
     },
     {
