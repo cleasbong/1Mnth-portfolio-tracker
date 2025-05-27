@@ -1,15 +1,11 @@
 {
-  "totalPnl": 96.85,
+  "totalPnl": 98.47,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T04:13:13.210077",
-  "entryTime": "2025-05-27T04:13:13.210077",
+  "lastUpdate": "2025-05-27T04:18:29.890328",
+  "entryTime": "2025-05-27T04:18:29.890328",
   "history": [
-    {
-      "time": "05/26 23:38",
-      "pnl": 71.68
-    },
     {
       "time": "05/26 23:43",
       "pnl": 71.79
@@ -205,6 +201,10 @@
     {
       "time": "05/27 04:13",
       "pnl": 96.85
+    },
+    {
+      "time": "05/27 04:18",
+      "pnl": 98.47
     }
   ],
   "positions": [
@@ -230,9 +230,9 @@
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
-      "return": 0.9,
-      "pnl": 19.09,
-      "currentPrice": 4293.0,
+      "return": 1.0,
+      "pnl": 20.53,
+      "currentPrice": 4296.0,
       "entryPrice": 4253.0
     },
     {
@@ -294,8 +294,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 0.4,
-      "pnl": 7.42,
-      "currentPrice": 219.60000610351562,
+      "pnl": 8.35,
+      "currentPrice": 219.6999969482422,
       "entryPrice": 218.8000030517578
     },
     {
@@ -320,9 +320,9 @@
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": 0.2,
-      "pnl": 4.31,
-      "currentPrice": 44.45970153808594,
+      "return": 0.3,
+      "pnl": 4.97,
+      "currentPrice": 44.47650146484375,
       "entryPrice": 44.34989929199219
     },
     {
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.2,
-      "pnl": -4.2,
-      "currentPrice": 21.704999923706055,
+      "return": -0.3,
+      "pnl": -5.6,
+      "currentPrice": 21.690000534057617,
       "entryPrice": 21.75
     },
     {
