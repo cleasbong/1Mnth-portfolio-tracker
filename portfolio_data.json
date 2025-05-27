@@ -1,15 +1,11 @@
 {
-  "totalPnl": 95.19,
+  "totalPnl": 93.72,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T03:36:13.253623",
-  "entryTime": "2025-05-27T03:36:13.253623",
+  "lastUpdate": "2025-05-27T03:41:35.328926",
+  "entryTime": "2025-05-27T03:41:35.328926",
   "history": [
-    {
-      "time": "05/26 22:52",
-      "pnl": 71.51
-    },
     {
       "time": "05/26 22:57",
       "pnl": 72.08
@@ -205,6 +201,10 @@
     {
       "time": "05/27 03:36",
       "pnl": 95.19
+    },
+    {
+      "time": "05/27 03:41",
+      "pnl": 93.72
     }
   ],
   "positions": [
@@ -290,15 +290,6 @@
       "entryPrice": 26.18000030517578
     },
     {
-      "symbol": "9434.T",
-      "company": "SoftBank Corp.",
-      "type": "LONG",
-      "return": 0.4,
-      "pnl": 7.42,
-      "currentPrice": 219.60000610351562,
-      "entryPrice": 218.8000030517578
-    },
-    {
       "symbol": "ADP.PA",
       "company": "Aeroports de Paris SA",
       "type": "SHORT",
@@ -306,6 +297,15 @@
       "pnl": 6.99,
       "currentPrice": 115.69999694824219,
       "entryPrice": 116.0999984741211
+    },
+    {
+      "symbol": "9434.T",
+      "company": "SoftBank Corp.",
+      "type": "LONG",
+      "return": 0.3,
+      "pnl": 6.5,
+      "currentPrice": 219.5,
+      "entryPrice": 218.8000030517578
     },
     {
       "symbol": "ENR.DE",
@@ -321,8 +321,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 4.34,
-      "currentPrice": 44.46049880981445,
+      "pnl": 3.33,
+      "currentPrice": 44.43479919433594,
       "entryPrice": 44.34989929199219
     },
     {
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -2.33,
-      "currentPrice": 21.725000381469727,
+      "pnl": -1.87,
+      "currentPrice": 21.729999542236328,
       "entryPrice": 21.75
     },
     {
