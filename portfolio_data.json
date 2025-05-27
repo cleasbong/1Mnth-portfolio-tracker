@@ -1,15 +1,11 @@
 {
-  "totalPnl": 104.38,
+  "totalPnl": 102.44,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T04:23:46.569597",
-  "entryTime": "2025-05-27T04:23:46.569597",
+  "lastUpdate": "2025-05-27T04:29:02.906420",
+  "entryTime": "2025-05-27T04:29:02.906420",
   "history": [
-    {
-      "time": "05/26 23:49",
-      "pnl": 71.64
-    },
     {
       "time": "05/26 23:54",
       "pnl": 71.03
@@ -205,6 +201,10 @@
     {
       "time": "05/27 04:23",
       "pnl": 104.38
+    },
+    {
+      "time": "05/27 04:29",
+      "pnl": 102.44
     }
   ],
   "positions": [
@@ -221,9 +221,9 @@
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
-      "return": 1.2,
-      "pnl": 23.87,
-      "currentPrice": 4303.0,
+      "return": 1.1,
+      "pnl": 22.91,
+      "currentPrice": 4301.0,
       "entryPrice": 4253.0
     },
     {
@@ -294,8 +294,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 0.4,
-      "pnl": 8.35,
-      "currentPrice": 219.6999969482422,
+      "pnl": 7.42,
+      "currentPrice": 219.60000610351562,
       "entryPrice": 218.8000030517578
     },
     {
@@ -321,8 +321,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.46,
-      "currentPrice": 44.4380989074707,
+      "pnl": 3.41,
+      "currentPrice": 44.43669891357422,
       "entryPrice": 44.34989929199219
     },
     {
