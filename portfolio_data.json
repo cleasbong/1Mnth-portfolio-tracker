@@ -1,15 +1,11 @@
 {
-  "totalPnl": 87.65,
+  "totalPnl": 88.86,
   "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T02:54:00.933925",
-  "entryTime": "2025-05-27T02:54:00.933925",
+  "lastUpdate": "2025-05-27T02:59:17.473669",
+  "entryTime": "2025-05-27T02:59:17.473669",
   "history": [
-    {
-      "time": "05/26 22:10",
-      "pnl": 70.44
-    },
     {
       "time": "05/26 22:15",
       "pnl": 71.75
@@ -205,6 +201,10 @@
     {
       "time": "05/27 02:54",
       "pnl": 87.65
+    },
+    {
+      "time": "05/27 02:59",
+      "pnl": 88.86
     }
   ],
   "positions": [
@@ -221,9 +221,9 @@
       "symbol": "9719.T",
       "company": "SCSK Corporation",
       "type": "LONG",
-      "return": 1.1,
-      "pnl": 21.96,
-      "currentPrice": 4299.0,
+      "return": 1.2,
+      "pnl": 23.87,
+      "currentPrice": 4303.0,
       "entryPrice": 4253.0
     },
     {
@@ -321,8 +321,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.79,
-      "currentPrice": 44.44649887084961,
+      "pnl": 3.48,
+      "currentPrice": 44.43870162963867,
       "entryPrice": 44.34989929199219
     },
     {
@@ -596,21 +596,12 @@
       "entryPrice": 172.1300048828125
     },
     {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.3,
-      "pnl": -5.6,
-      "currentPrice": 21.690000534057617,
-      "entryPrice": 21.75
-    },
-    {
       "symbol": "8801.T",
       "company": "Mitsui Fudosan Co., Ltd.",
       "type": "LONG",
       "return": -0.3,
-      "pnl": -6.63,
-      "currentPrice": 1373.5,
+      "pnl": -5.16,
+      "currentPrice": 1374.5,
       "entryPrice": 1378.0
     },
     {
@@ -621,6 +612,15 @@
       "pnl": -6.92,
       "currentPrice": 52.959999084472656,
       "entryPrice": 52.779998779296875
+    },
+    {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.4,
+      "pnl": -7.47,
+      "currentPrice": 21.670000076293945,
+      "entryPrice": 21.75
     },
     {
       "symbol": "IP.MI",
