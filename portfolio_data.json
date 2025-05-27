@@ -1,15 +1,11 @@
 {
-  "totalPnl": 108.5,
-  "winRate": 32.0,
+  "totalPnl": 106.97,
+  "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T07:09:28.390240",
-  "entryTime": "2025-05-27T07:09:28.390240",
+  "lastUpdate": "2025-05-27T07:14:47.436309",
+  "entryTime": "2025-05-27T07:14:47.436309",
   "history": [
-    {
-      "time": "05/27 02:07",
-      "pnl": 72.49
-    },
     {
       "time": "05/27 02:13",
       "pnl": 73.02
@@ -205,6 +201,10 @@
     {
       "time": "05/27 07:09",
       "pnl": 108.5
+    },
+    {
+      "time": "05/27 07:14",
+      "pnl": 106.97
     }
   ],
   "positions": [
@@ -231,8 +231,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 0.9,
-      "pnl": 18.62,
-      "currentPrice": 4292.0,
+      "pnl": 18.14,
+      "currentPrice": 4291.0,
       "entryPrice": 4253.0
     },
     {
@@ -351,6 +351,15 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.0,
+      "pnl": 0.5,
+      "currentPrice": 44.36259841918945,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
@@ -587,24 +596,6 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.47,
-      "currentPrice": 21.7450008392334,
-      "entryPrice": 21.75
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": -0.0,
-      "pnl": -0.78,
-      "currentPrice": 44.33000183105469,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -612,6 +603,15 @@
       "pnl": -1.7,
       "currentPrice": 171.9499969482422,
       "entryPrice": 172.1300048828125
+    },
+    {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -2.8,
+      "currentPrice": 21.719999313354492,
+      "entryPrice": 21.75
     },
     {
       "symbol": "LDO.MI",
