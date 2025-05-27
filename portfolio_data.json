@@ -1,15 +1,11 @@
 {
-  "totalPnl": 112.49,
+  "totalPnl": 110.31,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T05:19:09.460601",
-  "entryTime": "2025-05-27T05:19:09.460601",
+  "lastUpdate": "2025-05-27T05:24:28.657741",
+  "entryTime": "2025-05-27T05:24:28.657741",
   "history": [
-    {
-      "time": "05/27 00:37",
-      "pnl": 72.74
-    },
     {
       "time": "05/27 00:42",
       "pnl": 72.82
@@ -205,6 +201,10 @@
     {
       "time": "05/27 05:19",
       "pnl": 112.49
+    },
+    {
+      "time": "05/27 05:24",
+      "pnl": 110.31
     }
   ],
   "positions": [
@@ -330,8 +330,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.2,
-      "pnl": 3.46,
-      "currentPrice": 44.438201904296875,
+      "pnl": 3.15,
+      "currentPrice": 44.430198669433594,
       "entryPrice": 44.34989929199219
     },
     {
@@ -608,9 +608,9 @@
       "symbol": "COL.AX",
       "company": "Coles Group Limited",
       "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.8,
-      "currentPrice": 21.719999313354492,
+      "return": -0.2,
+      "pnl": -4.67,
+      "currentPrice": 21.700000762939453,
       "entryPrice": 21.75
     },
     {
