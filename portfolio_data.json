@@ -1,15 +1,11 @@
 {
-  "totalPnl": 108.23,
+  "totalPnl": 108.87,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T04:52:47.133118",
-  "entryTime": "2025-05-27T04:52:47.133118",
+  "lastUpdate": "2025-05-27T04:58:02.746007",
+  "entryTime": "2025-05-27T04:58:02.746007",
   "history": [
-    {
-      "time": "05/27 00:10",
-      "pnl": 72.54
-    },
     {
       "time": "05/27 00:15",
       "pnl": 72.4
@@ -205,6 +201,10 @@
     {
       "time": "05/27 04:52",
       "pnl": 108.23
+    },
+    {
+      "time": "05/27 04:58",
+      "pnl": 108.87
     }
   ],
   "positions": [
@@ -335,15 +335,6 @@
       "entryPrice": 65.55000305175781
     },
     {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.49,
-      "currentPrice": 44.413299560546875,
-      "entryPrice": 44.34989929199219
-    },
-    {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
@@ -351,6 +342,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.19,
+      "currentPrice": 44.405601501464844,
+      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.3,
-      "pnl": -6.53,
-      "currentPrice": 21.68000030517578,
+      "pnl": -5.6,
+      "currentPrice": 21.690000534057617,
       "entryPrice": 21.75
     },
     {
