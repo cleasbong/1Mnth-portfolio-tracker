@@ -1,15 +1,11 @@
 {
-  "totalPnl": 92.78,
-  "winRate": 32.0,
+  "totalPnl": 102.69,
+  "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T03:09:50.986767",
-  "entryTime": "2025-05-27T03:09:50.986767",
+  "lastUpdate": "2025-05-27T03:15:07.355313",
+  "entryTime": "2025-05-27T03:15:07.355313",
   "history": [
-    {
-      "time": "05/26 22:26",
-      "pnl": 70.23
-    },
     {
       "time": "05/26 22:31",
       "pnl": 69.43
@@ -205,6 +201,10 @@
     {
       "time": "05/27 03:09",
       "pnl": 92.78
+    },
+    {
+      "time": "05/27 03:15",
+      "pnl": 102.69
     }
   ],
   "positions": [
@@ -218,6 +218,15 @@
       "entryPrice": 440.20001220703125
     },
     {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 1.1,
+      "pnl": 21.96,
+      "currentPrice": 4299.0,
+      "entryPrice": 4253.0
+    },
+    {
       "symbol": "RY4C.DE",
       "company": "Ryanair Holdings plc",
       "type": "SHORT",
@@ -225,15 +234,6 @@
       "pnl": 21.33,
       "currentPrice": 23.549999237060547,
       "entryPrice": 23.799999237060547
-    },
-    {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 0.9,
-      "pnl": 19.09,
-      "currentPrice": 4293.0,
-      "entryPrice": 4253.0
     },
     {
       "symbol": "ROCK-B.CO",
@@ -320,9 +320,9 @@
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": 0.2,
-      "pnl": 4.32,
-      "currentPrice": 44.46009826660156,
+      "return": 0.3,
+      "pnl": 4.42,
+      "currentPrice": 44.462501525878906,
       "entryPrice": 44.34989929199219
     },
     {
@@ -342,6 +342,15 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
+    },
+    {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.21,
+      "currentPrice": 1379.5,
+      "entryPrice": 1378.0
     },
     {
       "symbol": "MRK.DE",
@@ -587,15 +596,6 @@
       "entryPrice": 382.70001220703125
     },
     {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": -0.1,
-      "pnl": -1.47,
-      "currentPrice": 1377.0,
-      "entryPrice": 1378.0
-    },
-    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -605,6 +605,15 @@
       "entryPrice": 172.1300048828125
     },
     {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.2,
+      "pnl": -3.73,
+      "currentPrice": 21.709999084472656,
+      "entryPrice": 21.75
+    },
+    {
       "symbol": "LDO.MI",
       "company": "Leonardo S.p.a.",
       "type": "SHORT",
@@ -612,15 +621,6 @@
       "pnl": -6.92,
       "currentPrice": 52.959999084472656,
       "entryPrice": 52.779998779296875
-    },
-    {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.3,
-      "pnl": -7.0,
-      "currentPrice": 21.674999237060547,
-      "entryPrice": 21.75
     },
     {
       "symbol": "IP.MI",
