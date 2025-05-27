@@ -1,15 +1,11 @@
 {
-  "totalPnl": 102.01,
+  "totalPnl": 104.32,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:48:12.312308",
-  "entryTime": "2025-05-27T06:48:12.312308",
+  "lastUpdate": "2025-05-27T06:53:31.664678",
+  "entryTime": "2025-05-27T06:53:31.664678",
   "history": [
-    {
-      "time": "05/27 01:46",
-      "pnl": 72.66
-    },
     {
       "time": "05/27 01:52",
       "pnl": 72.1
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:48",
       "pnl": 102.01
+    },
+    {
+      "time": "05/27 06:53",
+      "pnl": 104.32
     }
   ],
   "positions": [
@@ -227,6 +227,15 @@
       "entryPrice": 23.799999237060547
     },
     {
+      "symbol": "9719.T",
+      "company": "SCSK Corporation",
+      "type": "LONG",
+      "return": 0.8,
+      "pnl": 17.18,
+      "currentPrice": 4289.0,
+      "entryPrice": 4253.0
+    },
+    {
       "symbol": "ROCK-B.CO",
       "company": "Rockwool A/S",
       "type": "SHORT",
@@ -234,15 +243,6 @@
       "pnl": 14.91,
       "currentPrice": 310.8999938964844,
       "entryPrice": 313.20001220703125
-    },
-    {
-      "symbol": "9719.T",
-      "company": "SCSK Corporation",
-      "type": "LONG",
-      "return": 0.7,
-      "pnl": 14.8,
-      "currentPrice": 4284.0,
-      "entryPrice": 4253.0
     },
     {
       "symbol": "9434.T",
@@ -357,8 +357,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": 0.0,
-      "pnl": 0.56,
-      "currentPrice": 44.36410140991211,
+      "pnl": 0.47,
+      "currentPrice": 44.36199951171875,
       "entryPrice": 44.34989929199219
     },
     {
