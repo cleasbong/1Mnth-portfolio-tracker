@@ -1,15 +1,11 @@
 {
-  "totalPnl": 107.13,
-  "winRate": 34.0,
+  "totalPnl": 108.87,
+  "winRate": 32.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T06:58:50.696764",
-  "entryTime": "2025-05-27T06:58:50.696764",
+  "lastUpdate": "2025-05-27T07:04:09.389083",
+  "entryTime": "2025-05-27T07:04:09.389083",
   "history": [
-    {
-      "time": "05/27 01:57",
-      "pnl": 71.29
-    },
     {
       "time": "05/27 02:02",
       "pnl": 71.32
@@ -205,6 +201,10 @@
     {
       "time": "05/27 06:58",
       "pnl": 107.13
+    },
+    {
+      "time": "05/27 07:04",
+      "pnl": 108.87
     }
   ],
   "positions": [
@@ -231,8 +231,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 0.9,
-      "pnl": 17.66,
-      "currentPrice": 4290.0,
+      "pnl": 19.09,
+      "currentPrice": 4293.0,
       "entryPrice": 4253.0
     },
     {
@@ -249,8 +249,8 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 0.6,
-      "pnl": 12.99,
-      "currentPrice": 220.1999969482422,
+      "pnl": 12.06,
+      "currentPrice": 220.10000610351562,
       "entryPrice": 218.8000030517578
     },
     {
@@ -272,6 +272,15 @@
       "entryPrice": 475.8500061035156
     },
     {
+      "symbol": "8801.T",
+      "company": "Mitsui Fudosan Co., Ltd.",
+      "type": "LONG",
+      "return": 0.5,
+      "pnl": 10.31,
+      "currentPrice": 1385.0,
+      "entryPrice": 1378.0
+    },
+    {
       "symbol": "BANB.SW",
       "company": "Bachem Holding AG",
       "type": "SHORT",
@@ -279,15 +288,6 @@
       "pnl": 9.79,
       "currentPrice": 49.52000045776367,
       "entryPrice": 49.7599983215332
-    },
-    {
-      "symbol": "8801.T",
-      "company": "Mitsui Fudosan Co., Ltd.",
-      "type": "LONG",
-      "return": 0.5,
-      "pnl": 9.58,
-      "currentPrice": 1384.5,
-      "entryPrice": 1378.0
     },
     {
       "symbol": "CA.PA",
@@ -351,15 +351,6 @@
       "pnl": 0.88,
       "currentPrice": 115.8499984741211,
       "entryPrice": 115.9000015258789
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.0,
-      "pnl": 0.22,
-      "currentPrice": 44.35540008544922,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "BDEV.L",
@@ -596,6 +587,15 @@
       "entryPrice": 382.70001220703125
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": -0.0,
+      "pnl": -0.22,
+      "currentPrice": 44.34429931640625,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -609,8 +609,8 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.1,
-      "pnl": -2.8,
-      "currentPrice": 21.719999313354492,
+      "pnl": -1.87,
+      "currentPrice": 21.729999542236328,
       "entryPrice": 21.75
     },
     {
