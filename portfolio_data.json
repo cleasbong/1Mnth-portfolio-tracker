@@ -1,15 +1,11 @@
 {
-  "totalPnl": 111.28,
+  "totalPnl": 112.79,
   "winRate": 34.0,
   "avgReturn": 0.1,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-27T05:03:18.254801",
-  "entryTime": "2025-05-27T05:03:18.254801",
+  "lastUpdate": "2025-05-27T05:08:33.743016",
+  "entryTime": "2025-05-27T05:08:33.743016",
   "history": [
-    {
-      "time": "05/27 00:21",
-      "pnl": 72.93
-    },
     {
       "time": "05/27 00:26",
       "pnl": 72.97
@@ -205,6 +201,10 @@
     {
       "time": "05/27 05:03",
       "pnl": 111.28
+    },
+    {
+      "time": "05/27 05:08",
+      "pnl": 112.79
     }
   ],
   "positions": [
@@ -222,8 +222,8 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 1.1,
-      "pnl": 22.44,
-      "currentPrice": 4300.0,
+      "pnl": 22.91,
+      "currentPrice": 4301.0,
       "entryPrice": 4253.0
     },
     {
@@ -335,6 +335,15 @@
       "entryPrice": 65.55000305175781
     },
     {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": 0.1,
+      "pnl": 2.36,
+      "currentPrice": 44.40999984741211,
+      "entryPrice": 44.34989929199219
+    },
+    {
       "symbol": "GET.PA",
       "company": "Getlink SE",
       "type": "SHORT",
@@ -342,15 +351,6 @@
       "pnl": 2.33,
       "currentPrice": 17.389999389648438,
       "entryPrice": 17.40999984741211
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": 0.1,
-      "pnl": 2.26,
-      "currentPrice": 44.40760040283203,
-      "entryPrice": 44.34989929199219
     },
     {
       "symbol": "MRK.DE",
@@ -596,6 +596,15 @@
       "entryPrice": 382.70001220703125
     },
     {
+      "symbol": "COL.AX",
+      "company": "Coles Group Limited",
+      "type": "LONG",
+      "return": -0.1,
+      "pnl": -1.4,
+      "currentPrice": 21.735000610351562,
+      "entryPrice": 21.75
+    },
+    {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
@@ -603,15 +612,6 @@
       "pnl": -1.7,
       "currentPrice": 171.9499969482422,
       "entryPrice": 172.1300048828125
-    },
-    {
-      "symbol": "COL.AX",
-      "company": "Coles Group Limited",
-      "type": "LONG",
-      "return": -0.1,
-      "pnl": -2.33,
-      "currentPrice": 21.725000381469727,
-      "entryPrice": 21.75
     },
     {
       "symbol": "LDO.MI",
