@@ -6,8 +6,8 @@
   "portfolioReturn": -1.24,
   "totalPositions": 50,
   "profitablePositions": 13,
-  "lastUpdate": "2025-05-28T10:07:20.730500",
-  "entryTime": "2025-05-28T10:07:20.730500",
+  "lastUpdate": "2025-05-28T10:07:21.767109",
+  "entryTime": "2025-05-28T10:07:21.767109",
   "history": [
     {
       "time": "05/27 07:04",
@@ -241,6 +241,12 @@
     },
     {
       "time": "2025-05-28T10:07:20.730500",
+      "pnl": -124.15,
+      "portfolio_return": -1.24,
+      "volatility": 1.95
+    },
+    {
+      "time": "2025-05-28T10:07:21.767109",
       "pnl": -124.15,
       "portfolio_return": -1.24,
       "volatility": 1.95
