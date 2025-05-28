@@ -1,18 +1,14 @@
 {
-  "totalPnl": -85.66,
-  "todayPnl": -8.57,
+  "totalPnl": -85.39,
+  "todayPnl": -8.54,
   "winRate": 34.0,
   "avgReturn": -0.8,
-  "portfolioReturn": -0.86,
+  "portfolioReturn": -0.85,
   "totalPositions": 50,
   "profitablePositions": 17,
-  "lastUpdate": "2025-05-28T19:32:58.239132",
-  "entryTime": "2025-05-28T19:32:58.239132",
+  "lastUpdate": "2025-05-28T19:38:16.923499",
+  "entryTime": "2025-05-28T19:38:16.923499",
   "history": [
-    {
-      "time": "05/28 09:01",
-      "pnl": -467.28
-    },
     {
       "time": "05/28 09:01",
       "pnl": -467.28
@@ -588,6 +584,12 @@
       "pnl": -85.66,
       "portfolio_return": -0.86,
       "volatility": 2.18
+    },
+    {
+      "time": "2025-05-28T19:38:16.923499",
+      "pnl": -85.39,
+      "portfolio_return": -0.85,
+      "volatility": 2.2
     }
   ],
   "dailyHistory": [
@@ -597,7 +599,7 @@
       "return": -1.26
     }
   ],
-  "volatility": 2.18,
+  "volatility": 2.2,
   "riskLevel": "High",
   "shortPositions": 42,
   "longPositions": 8,
@@ -607,14 +609,14 @@
       "symbol": "MRVL",
       "direction": "bearish",
       "position_type": "SHORT",
-      "current_return": -7.152104703255153,
-      "signal_strength": 7.152104703255153,
+      "current_return": -7.531311258801056,
+      "signal_strength": 7.531311258801056,
       "message": "4H SuperTrend BEARISH signal confirmed on MRVL"
     },
     {
       "type": "entry_opportunity",
       "symbol": "SREA",
-      "current_return": -2.1047493820489276,
+      "current_return": -2.060692710175252,
       "message": "\ud83d\udcca Potential entry opportunity on SREA - Price movement detected"
     },
     {
@@ -622,8 +624,8 @@
       "symbol": "TXN",
       "direction": "bearish",
       "position_type": "SHORT",
-      "current_return": -4.644544898453021,
-      "signal_strength": 4.644544898453021,
+      "current_return": -4.582838150383067,
+      "signal_strength": 4.582838150383067,
       "message": "4H SuperTrend BEARISH signal confirmed on TXN"
     },
     {
@@ -653,7 +655,7 @@
     {
       "type": "entry_opportunity",
       "symbol": "TECH",
-      "current_return": -2.1167369127215707,
+      "current_return": -2.106052171714391,
       "message": "\ud83d\udcca Potential entry opportunity on TECH - Price movement detected"
     },
     {
@@ -683,7 +685,7 @@
     {
       "type": "entry_opportunity",
       "symbol": "BEP-UN.TO",
-      "current_return": -2.783784906306887,
+      "current_return": -2.8147225359511303,
       "message": "\ud83d\udcca Potential entry opportunity on BEP-UN.TO - Price movement detected"
     },
     {
@@ -716,13 +718,13 @@
     {
       "type": "entry_opportunity",
       "symbol": "A",
-      "current_return": -2.644188983207811,
+      "current_return": -2.667216342958643,
       "message": "\ud83d\udcca Potential entry opportunity on A - Price movement detected"
     },
     {
       "type": "entry_opportunity",
       "symbol": "DOL.TO",
-      "current_return": 2.4196788287831477,
+      "current_return": 2.4051584687207685,
       "message": "\ud83d\udcca Potential entry opportunity on DOL.TO - Price movement detected"
     }
   ],
@@ -738,7 +740,7 @@
       "currentPrice": 285.29998779296875,
       "entryPrice": 296.79998779296875,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:49.733094"
+      "lastUpdated": "2025-05-28T19:38:08.374699"
     },
     {
       "symbol": "ZEAL.CO",
@@ -750,7 +752,7 @@
       "currentPrice": 453.5,
       "entryPrice": 440.20001220703125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:53.684602"
+      "lastUpdated": "2025-05-28T19:38:12.313739"
     },
     {
       "symbol": "UHR.SW",
@@ -762,19 +764,19 @@
       "currentPrice": 138.85000610351562,
       "entryPrice": 141.60000610351562,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:52.225195"
+      "lastUpdated": "2025-05-28T19:38:10.800555"
     },
     {
       "symbol": "DOL.TO",
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": 2.4,
-      "pnl": 3.93,
-      "pnlZar": 72.7,
-      "currentPrice": 176.2949981689453,
+      "pnl": 3.91,
+      "pnlZar": 72.27,
+      "currentPrice": 176.27000427246094,
       "entryPrice": 172.1300048828125,
       "investmentAmount": 162.41346407617192,
-      "lastUpdated": "2025-05-28T19:32:57.945460"
+      "lastUpdated": "2025-05-28T19:38:16.663687"
     },
     {
       "symbol": "9434.T",
@@ -786,7 +788,7 @@
       "currentPrice": 222.6999969482422,
       "entryPrice": 218.8000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:56.022275"
+      "lastUpdated": "2025-05-28T19:38:14.739135"
     },
     {
       "symbol": "GET.PA",
@@ -798,7 +800,7 @@
       "currentPrice": 17.110000610351562,
       "entryPrice": 17.40999984741211,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:47.364631"
+      "lastUpdated": "2025-05-28T19:38:06.113474"
     },
     {
       "symbol": "9719.T",
@@ -810,7 +812,7 @@
       "currentPrice": 4301.0,
       "entryPrice": 4253.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:51.720756"
+      "lastUpdated": "2025-05-28T19:38:10.312207"
     },
     {
       "symbol": "CA.PA",
@@ -822,7 +824,7 @@
       "currentPrice": 14.40999984741211,
       "entryPrice": 14.5649995803833,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:46.406736"
+      "lastUpdated": "2025-05-28T19:38:05.210873"
     },
     {
       "symbol": "SBRY.L",
@@ -834,7 +836,7 @@
       "currentPrice": 284.0,
       "entryPrice": 286.6000061035156,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:46.141057"
+      "lastUpdated": "2025-05-28T19:38:04.955639"
     },
     {
       "symbol": "RY4C.DE",
@@ -846,7 +848,7 @@
       "currentPrice": 23.639999389648438,
       "entryPrice": 23.799999237060547,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:51.462210"
+      "lastUpdated": "2025-05-28T19:38:10.086150"
     },
     {
       "symbol": "PSN.L",
@@ -858,7 +860,7 @@
       "currentPrice": 1315.0,
       "entryPrice": 1323.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:48.488341"
+      "lastUpdated": "2025-05-28T19:38:07.216485"
     },
     {
       "symbol": "ROCK-B.CO",
@@ -870,7 +872,7 @@
       "currentPrice": 311.3500061035156,
       "entryPrice": 313.20001220703125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:48.976325"
+      "lastUpdated": "2025-05-28T19:38:07.668752"
     },
     {
       "symbol": "MRK.DE",
@@ -882,43 +884,43 @@
       "currentPrice": 115.3499984741211,
       "entryPrice": 115.9000015258789,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:50.500458"
+      "lastUpdated": "2025-05-28T19:38:09.136859"
     },
     {
       "symbol": "FDX",
       "company": "FedEx Corporation",
       "type": "LONG",
-      "return": 0.5,
-      "pnl": 0.93,
-      "pnlZar": 17.25,
-      "currentPrice": 217.5850067138672,
+      "return": 0.4,
+      "pnl": 0.82,
+      "pnlZar": 15.26,
+      "currentPrice": 217.47000122070312,
       "entryPrice": 216.58999633789062,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:51.961783"
+      "lastUpdated": "2025-05-28T19:38:10.537027"
+    },
+    {
+      "symbol": "TSN",
+      "company": "Tyson Foods, Inc.",
+      "type": "SHORT",
+      "return": 0.3,
+      "pnl": 0.51,
+      "pnlZar": 9.46,
+      "currentPrice": 55.415000915527344,
+      "entryPrice": 55.55500030517578,
+      "investmentAmount": 203.0168300952149,
+      "lastUpdated": "2025-05-28T19:38:11.336072"
     },
     {
       "symbol": "ABX.TO",
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
       "return": 0.1,
-      "pnl": 0.23,
-      "pnlZar": 4.3,
-      "currentPrice": 26.149999618530273,
+      "pnl": 0.16,
+      "pnlZar": 2.87,
+      "currentPrice": 26.15999984741211,
       "entryPrice": 26.18000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:57.063934"
-    },
-    {
-      "symbol": "TSN",
-      "company": "Tyson Foods, Inc.",
-      "type": "SHORT",
-      "return": 0.1,
-      "pnl": 0.2,
-      "pnlZar": 3.72,
-      "currentPrice": 55.5,
-      "entryPrice": 55.55500030517578,
-      "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:52.714724"
+      "lastUpdated": "2025-05-28T19:38:15.746861"
     },
     {
       "symbol": "8801.T",
@@ -930,7 +932,7 @@
       "currentPrice": 1379.0,
       "entryPrice": 1378.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:53.470063"
+      "lastUpdated": "2025-05-28T19:38:12.097527"
     },
     {
       "symbol": "BDEV.L",
@@ -966,7 +968,7 @@
       "currentPrice": 116.0999984741211,
       "entryPrice": 116.0999984741211,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:50.254822"
+      "lastUpdated": "2025-05-28T19:38:08.883293"
     },
     {
       "symbol": "CGCBV.HE",
@@ -978,7 +980,19 @@
       "currentPrice": 47.939998626708984,
       "entryPrice": 47.939998626708984,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:53.215557"
+      "lastUpdated": "2025-05-28T19:38:11.853550"
+    },
+    {
+      "symbol": "EURTRY=X",
+      "company": "EUR/TRY",
+      "type": "LONG",
+      "return": -0.3,
+      "pnl": -0.61,
+      "pnlZar": -11.21,
+      "currentPrice": 44.19540023803711,
+      "entryPrice": 44.34989929199219,
+      "investmentAmount": 173.98542339159917,
+      "lastUpdated": "2025-05-28T19:38:14.529721"
     },
     {
       "symbol": "TW.L",
@@ -990,19 +1004,7 @@
       "currentPrice": 117.75,
       "entryPrice": 117.3499984741211,
       "investmentAmount": 182.71514708569342,
-      "lastUpdated": "2025-05-28T19:32:57.521890"
-    },
-    {
-      "symbol": "EURTRY=X",
-      "company": "EUR/TRY",
-      "type": "LONG",
-      "return": -0.4,
-      "pnl": -0.71,
-      "pnlZar": -13.14,
-      "currentPrice": 44.168800354003906,
-      "entryPrice": 44.34989929199219,
-      "investmentAmount": 173.98542339159917,
-      "lastUpdated": "2025-05-28T19:32:55.809326"
+      "lastUpdated": "2025-05-28T19:38:16.223772"
     },
     {
       "symbol": "BNZL.L",
@@ -1014,7 +1016,7 @@
       "currentPrice": 2398.0,
       "entryPrice": 2382.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:54.450343"
+      "lastUpdated": "2025-05-28T19:38:13.102256"
     },
     {
       "symbol": "COL.AX",
@@ -1026,7 +1028,7 @@
       "currentPrice": 21.600000381469727,
       "entryPrice": 21.75,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:57.734000"
+      "lastUpdated": "2025-05-28T19:38:16.440115"
     },
     {
       "symbol": "TSCO.L",
@@ -1038,7 +1040,7 @@
       "currentPrice": 385.3999938964844,
       "entryPrice": 382.70001220703125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:58.239087"
+      "lastUpdated": "2025-05-28T19:38:16.923483"
     },
     {
       "symbol": "WPP.L",
@@ -1050,7 +1052,7 @@
       "currentPrice": 595.5999755859375,
       "entryPrice": 591.2000122070312,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:50.732015"
+      "lastUpdated": "2025-05-28T19:38:09.370900"
     },
     {
       "symbol": "FNV.TO",
@@ -1062,19 +1064,19 @@
       "currentPrice": 232.2899932861328,
       "entryPrice": 230.3800048828125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:50.965219"
+      "lastUpdated": "2025-05-28T19:38:09.633732"
     },
     {
       "symbol": "UHAL",
       "company": "U-Haul Holding Company",
       "type": "SHORT",
-      "return": -1.0,
-      "pnl": -1.93,
-      "pnlZar": -35.74,
-      "currentPrice": 62.59000015258789,
+      "return": -0.9,
+      "pnl": -1.87,
+      "pnlZar": -34.53,
+      "currentPrice": 62.56999969482422,
       "entryPrice": 62.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:54.672841"
+      "lastUpdated": "2025-05-28T19:38:13.327781"
     },
     {
       "symbol": "AED.BR",
@@ -1086,31 +1088,31 @@
       "currentPrice": 66.19999694824219,
       "entryPrice": 65.55000305175781,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:46.663323"
+      "lastUpdated": "2025-05-28T19:38:05.442820"
     },
     {
       "symbol": "ACT",
       "company": "Enact Holdings, Inc.",
       "type": "SHORT",
-      "return": -1.2,
-      "pnl": -2.45,
-      "pnlZar": -45.41,
-      "currentPrice": 35.57500076293945,
+      "return": -1.1,
+      "pnl": -2.28,
+      "pnlZar": -42.2,
+      "currentPrice": 35.544898986816406,
       "entryPrice": 35.150001525878906,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:49.212989"
+      "lastUpdated": "2025-05-28T19:38:07.882501"
     },
     {
       "symbol": "CFG",
       "company": "Citizens Financial Group",
       "type": "SHORT",
       "return": -1.2,
-      "pnl": -2.49,
-      "pnlZar": -46.03,
-      "currentPrice": 40.05500030517578,
+      "pnl": -2.44,
+      "pnlZar": -45.08,
+      "currentPrice": 40.04499816894531,
       "entryPrice": 39.56999969482422,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:55.591697"
+      "lastUpdated": "2025-05-28T19:38:14.297158"
     },
     {
       "symbol": "GFTU.L",
@@ -1122,7 +1124,7 @@
       "currentPrice": 1012.0,
       "entryPrice": 997.5999755859375,
       "investmentAmount": 182.71514708569342,
-      "lastUpdated": "2025-05-28T19:32:55.378443"
+      "lastUpdated": "2025-05-28T19:38:14.071346"
     },
     {
       "symbol": "SMIN.L",
@@ -1134,19 +1136,19 @@
       "currentPrice": 2162.0,
       "entryPrice": 2134.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:52.473928"
+      "lastUpdated": "2025-05-28T19:38:11.048260"
     },
     {
       "symbol": "UNH",
       "company": "UnitedHealth Group",
       "type": "SHORT",
-      "return": -1.8,
-      "pnl": -3.61,
-      "pnlZar": -66.85,
-      "currentPrice": 300.79998779296875,
+      "return": -1.6,
+      "pnl": -3.2,
+      "pnlZar": -59.22,
+      "currentPrice": 300.20001220703125,
       "entryPrice": 295.5400085449219,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:49.450146"
+      "lastUpdated": "2025-05-28T19:38:08.118933"
     },
     {
       "symbol": "BANB.SW",
@@ -1158,31 +1160,31 @@
       "currentPrice": 50.650001525878906,
       "entryPrice": 49.7599983215332,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:56.787359"
+      "lastUpdated": "2025-05-28T19:38:15.495541"
     },
     {
       "symbol": "SREA",
       "company": "Sempra Energy",
       "type": "SHORT",
       "return": -2.1,
-      "pnl": -4.27,
-      "pnlZar": -79.05,
-      "currentPrice": 20.860000610351562,
+      "pnl": -4.18,
+      "pnlZar": -77.4,
+      "currentPrice": 20.85099983215332,
       "entryPrice": 20.43000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:47.102300"
+      "lastUpdated": "2025-05-28T19:38:05.882696"
     },
     {
       "symbol": "TECH",
       "company": "Bio-Techne Corporation",
       "type": "SHORT",
       "return": -2.1,
-      "pnl": -4.3,
-      "pnlZar": -79.5,
-      "currentPrice": 47.7599983215332,
+      "pnl": -4.28,
+      "pnlZar": -79.1,
+      "currentPrice": 47.755001068115234,
       "entryPrice": 46.77000045776367,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:51.198288"
+      "lastUpdated": "2025-05-28T19:38:09.865115"
     },
     {
       "symbol": "SAAB-B.ST",
@@ -1194,7 +1196,7 @@
       "currentPrice": 489.0,
       "entryPrice": 475.8500061035156,
       "investmentAmount": 162.41346407617192,
-      "lastUpdated": "2025-05-28T19:32:56.516968"
+      "lastUpdated": "2025-05-28T19:38:15.233150"
     },
     {
       "symbol": "IP.MI",
@@ -1206,7 +1208,7 @@
       "currentPrice": 34.18000030517578,
       "entryPrice": 33.400001525878906,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:56.265467"
+      "lastUpdated": "2025-05-28T19:38:14.975647"
     },
     {
       "symbol": "LAND.L",
@@ -1218,31 +1220,31 @@
       "currentPrice": 625.0,
       "entryPrice": 609.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:52.980766"
+      "lastUpdated": "2025-05-28T19:38:11.611998"
     },
     {
       "symbol": "A",
       "company": "Agilent Technologies",
       "type": "SHORT",
-      "return": -2.6,
-      "pnl": -5.37,
-      "pnlZar": -99.31,
-      "currentPrice": 111.41000366210938,
+      "return": -2.7,
+      "pnl": -5.41,
+      "pnlZar": -100.18,
+      "currentPrice": 111.43499755859375,
       "entryPrice": 108.54000091552734,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:57.284272"
+      "lastUpdated": "2025-05-28T19:38:15.969462"
     },
     {
       "symbol": "BEP-UN.TO",
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
       "return": -2.8,
-      "pnl": -5.65,
-      "pnlZar": -104.55,
-      "currentPrice": 33.22999954223633,
+      "pnl": -5.71,
+      "pnlZar": -105.72,
+      "currentPrice": 33.2400016784668,
       "entryPrice": 32.33000183105469,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:54.193077"
+      "lastUpdated": "2025-05-28T19:38:12.782339"
     },
     {
       "symbol": "ENR.DE",
@@ -1254,7 +1256,7 @@
       "currentPrice": 85.72000122070312,
       "entryPrice": 83.30000305175781,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:48.719246"
+      "lastUpdated": "2025-05-28T19:38:07.421265"
     },
     {
       "symbol": "AVTR",
@@ -1266,7 +1268,7 @@
       "currentPrice": 13.0649995803833,
       "entryPrice": 12.6899995803833,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:55.136069"
+      "lastUpdated": "2025-05-28T19:38:13.804635"
     },
     {
       "symbol": "RS1.L",
@@ -1278,19 +1280,19 @@
       "currentPrice": 571.5,
       "entryPrice": 551.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:54.930371"
+      "lastUpdated": "2025-05-28T19:38:13.602673"
     },
     {
       "symbol": "TXN",
       "company": "Texas Instruments",
       "type": "SHORT",
       "return": -4.6,
-      "pnl": -9.43,
-      "pnlZar": -174.44,
-      "currentPrice": 184.49879455566406,
+      "pnl": -9.3,
+      "pnlZar": -172.12,
+      "currentPrice": 184.38999938964844,
       "entryPrice": 176.30999755859375,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:48.224139"
+      "lastUpdated": "2025-05-28T19:38:06.972809"
     },
     {
       "symbol": "LDO.MI",
@@ -1302,7 +1304,7 @@
       "currentPrice": 55.34000015258789,
       "entryPrice": 52.779998779296875,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:53.913490"
+      "lastUpdated": "2025-05-28T19:38:12.553740"
     },
     {
       "symbol": "HO.PA",
@@ -1314,19 +1316,19 @@
       "currentPrice": 272.3999938964844,
       "entryPrice": 259.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:49.999252"
+      "lastUpdated": "2025-05-28T19:38:08.643791"
     },
     {
       "symbol": "MRVL",
       "company": "Marvell Technology, Inc.",
       "type": "SHORT",
-      "return": -7.2,
-      "pnl": -14.52,
-      "pnlZar": -268.62,
-      "currentPrice": 65.0198974609375,
+      "return": -7.5,
+      "pnl": -15.29,
+      "pnlZar": -282.86,
+      "currentPrice": 65.25,
       "entryPrice": 60.68000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-28T19:32:46.882235"
+      "lastUpdated": "2025-05-28T19:38:05.673666"
     }
   ]
 }
