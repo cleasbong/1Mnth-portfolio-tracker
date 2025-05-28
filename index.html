@@ -280,7 +280,7 @@
 
         .chart-header {
             display: flex;
-            justify-content: between;
+            justify-content: space-between;
             align-items: center;
             margin-bottom: 20px;
         }
@@ -544,8 +544,8 @@
                     <div class="stat-label">Total P&L</div>
                 </div>
                 <div class="currency-display">
-                    <div class="primary-currency" id="totalPnlUSD">$0.00</div>
-                    <div class="secondary-currency" id="totalPnlZAR">R0.00</div>
+                    <div class="primary-currency" id="totalPnlUSD">Loading...</div>
+                    <div class="secondary-currency" id="totalPnlZAR">Loading...</div>
                 </div>
                 <div class="percentage-badge" id="totalPnlPercent">+0.0%</div>
             </div>
@@ -558,8 +558,8 @@
                     <div class="stat-label">Today's P&L</div>
                 </div>
                 <div class="currency-display">
-                    <div class="primary-currency" id="todayPnlUSD">$0.00</div>
-                    <div class="secondary-currency" id="todayPnlZAR">R0.00</div>
+                    <div class="primary-currency" id="todayPnlUSD">Loading...</div>
+                    <div class="secondary-currency" id="todayPnlZAR">Loading...</div>
                 </div>
                 <div class="percentage-badge" id="todayPnlPercent">+0.0%</div>
             </div>
@@ -571,7 +571,7 @@
                     </div>
                     <div class="stat-label">Win Rate</div>
                 </div>
-                <div class="stat-value" id="winRate">0%</div>
+                <div class="stat-value" id="winRate">Loading...</div>
                 <div style="font-size: 0.9em; opacity: 0.7;">
                     <span id="winningPositions">0</span> of <span id="totalPositions">50</span> profitable
                 </div>
@@ -584,10 +584,10 @@
                     </div>
                     <div class="stat-label">Portfolio Return</div>
                 </div>
-                <div class="stat-value" id="portfolioReturn">+0.0%</div>
+                <div class="stat-value" id="portfolioReturn">Loading...</div>
                 <div class="trend-indicator" id="trendIndicator">
                     <i class="fas fa-arrow-up"></i>
-                    <span>BULLISH TREND</span>
+                    <span>LOADING TREND</span>
                 </div>
             </div>
 
@@ -598,7 +598,7 @@
                     </div>
                     <div class="stat-label">Risk Exposure</div>
                 </div>
-                <div class="stat-value" id="riskExposure">Medium</div>
+                <div class="stat-value" id="riskExposure">Loading...</div>
                 <div style="font-size: 0.9em; opacity: 0.7;">
                     <span id="shortPositions">0</span> SHORT / <span id="longPositions">0</span> LONG
                 </div>
@@ -611,7 +611,7 @@
                     </div>
                     <div class="stat-label">Trade Duration</div>
                 </div>
-                <div class="stat-value" id="tradeDuration">0d 0h 0m</div>
+                <div class="stat-value" id="tradeDuration">Loading...</div>
                 <div style="font-size: 0.9em; opacity: 0.7;">
                     Since baseline entry
                 </div>
@@ -676,7 +676,7 @@
                         <i class="fas fa-info-circle"></i>
                     </div>
                     <div>
-                        <strong>System Status:</strong> All systems operational. Real-time data streaming.
+                        <strong>System Status:</strong> Loading portfolio data...
                     </div>
                 </div>
             </div>
@@ -684,9 +684,9 @@
 
         <div class="footer">
             <div class="footer-links">
-                <a href="#" class="footer-link"><i class="fas fa-download"></i> Export Data</a>
-                <a href="#" class="footer-link"><i class="fas fa-cog"></i> Settings</a>
-                <a href="#" class="footer-link"><i class="fas fa-info-circle"></i> About</a>
+                <a href="#" class="footer-link" onclick="exportData(); return false;"><i class="fas fa-download"></i> Export Data</a>
+                <a href="#" class="footer-link" onclick="updateDashboard(); return false;"><i class="fas fa-sync"></i> Refresh Data</a>
+                <a href="#" class="footer-link" onclick="showSettings(); return false;"><i class="fas fa-cog"></i> Settings</a>
             </div>
             <p>Professional Trading Dashboard • Updates every 5 minutes • Real-time market data</p>
         </div>
@@ -698,7 +698,6 @@
         let pnlChart;
         let countdownInterval;
         let lastUpdateTime = new Date();
-        const USD_TO_ZAR = 18.5; // You can make this dynamic later
 
         // Initialize dashboard
         document.addEventListener('DOMContentLoaded', function() {
@@ -706,7 +705,7 @@
             startCountdown();
             updateDashboard();
             
-            // Update every 30 seconds for smooth countdown
+            // Update every 30 seconds for real-time feel
             setInterval(updateDashboard, 30000);
             
             // Time filter functionality
@@ -714,7 +713,6 @@
                 filter.addEventListener('click', function() {
                     document.querySelectorAll('.time-filter').forEach(f => f.classList.remove('active'));
                     this.classList.add('active');
-                    // Update chart based on selected period
                     updateChart(portfolioData.history || []);
                 });
             });
@@ -722,53 +720,68 @@
 
         async function updateDashboard() {
             try {
-                const response = await fetch('portfolio_data.json');
-                portfolioData = await response.json();
+                console.log('Fetching portfolio data...');
                 
+                // Add cache-busting parameter to ensure fresh data
+                const response = await fetch(`portfolio_data.json?t=${Date.now()}`);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                portfolioData = await response.json();
+                console.log('Loaded portfolio data:', portfolioData);
+                
+                // Update all dashboard elements
                 updateStats();
                 updateChart(portfolioData.history || []);
                 updatePositions();
                 updateAlerts();
                 
+                // Update last update time
                 lastUpdateTime = new Date(portfolioData.lastUpdate);
                 document.getElementById('lastUpdateTime').textContent = 
                     `Last updated: ${lastUpdateTime.toLocaleString()}`;
                 
             } catch (error) {
                 console.error('Error loading portfolio data:', error);
-                // Show error state
                 document.getElementById('totalPnlUSD').textContent = 'Error loading data';
+                document.getElementById('lastUpdateTime').textContent = `Error: ${error.message}`;
             }
         }
 
         function updateStats() {
-            // Total P&L
+            // Total P&L with proper formatting
             const totalPnl = portfolioData.totalPnl || 0;
-            const totalPnlZAR = totalPnl * USD_TO_ZAR;
+            const usdToZar = portfolioData.usdToZar || 18.5;
+            const totalPnlZAR = totalPnl * usdToZar;
             
             document.getElementById('totalPnlUSD').textContent = 
-                `$${totalPnl.toLocaleString('en-US', {minimumFractionDigits: 2})}`;
+                `${totalPnl >= 0 ? '+' : ''}$${Math.abs(totalPnl).toLocaleString('en-US', {minimumFractionDigits: 2})}`;
             document.getElementById('totalPnlZAR').textContent = 
-                `R${totalPnlZAR.toLocaleString('en-US', {minimumFractionDigits: 2})}`;
+                `${totalPnl >= 0 ? '+' : ''}R${Math.abs(totalPnlZAR).toLocaleString('en-US', {minimumFractionDigits: 2})}`;
             
-            // Portfolio return percentage
-            const portfolioReturn = (totalPnl / 100000) * 100; // Assuming 100k investment
-            document.getElementById('portfolioReturn').textContent = 
-                `${portfolioReturn >= 0 ? '+' : ''}${portfolioReturn.toFixed(2)}%`;
-            document.getElementById('totalPnlPercent').textContent = 
-                `${portfolioReturn >= 0 ? '+' : ''}${portfolioReturn.toFixed(1)}%`;
-            document.getElementById('totalPnlPercent').className = 
-                `percentage-badge ${portfolioReturn >= 0 ? '' : 'negative'}`;
-
-            // Today's P&L (simulated as difference from yesterday)
-            const todayPnl = totalPnl * 0.1; // Simulated daily change
-            const todayPnlZAR = todayPnl * USD_TO_ZAR;
+            // Today's P&L
+            const todayPnl = portfolioData.todayPnl || 0;
+            const todayPnlZAR = todayPnl * usdToZar;
+            
             document.getElementById('todayPnlUSD').textContent = 
                 `${todayPnl >= 0 ? '+' : ''}$${Math.abs(todayPnl).toLocaleString('en-US', {minimumFractionDigits: 2})}`;
             document.getElementById('todayPnlZAR').textContent = 
                 `${todayPnl >= 0 ? '+' : ''}R${Math.abs(todayPnlZAR).toLocaleString('en-US', {minimumFractionDigits: 2})}`;
             
-            const todayPercent = (todayPnl / 100000) * 100;
+            // Portfolio return percentage
+            const portfolioReturn = portfolioData.portfolioReturn || 0;
+            document.getElementById('portfolioReturn').textContent = 
+                `${portfolioReturn >= 0 ? '+' : ''}${portfolioReturn.toFixed(2)}%`;
+            
+            // Update percentage badges
+            document.getElementById('totalPnlPercent').textContent = 
+                `${portfolioReturn >= 0 ? '+' : ''}${portfolioReturn.toFixed(1)}%`;
+            document.getElementById('totalPnlPercent').className = 
+                `percentage-badge ${portfolioReturn >= 0 ? '' : 'negative'}`;
+            
+            const todayPercent = (todayPnl / (portfolioData.totalInvestment || 100000)) * 100;
             document.getElementById('todayPnlPercent').textContent = 
                 `${todayPercent >= 0 ? '+' : ''}${todayPercent.toFixed(1)}%`;
             document.getElementById('todayPnlPercent').className = 
@@ -777,20 +790,12 @@
             // Win Rate
             document.getElementById('winRate').textContent = `${portfolioData.winRate || 0}%`;
             document.getElementById('totalPositions').textContent = portfolioData.totalPositions || 50;
-            
-            const winningPositions = Math.round((portfolioData.winRate || 0) / 100 * (portfolioData.totalPositions || 50));
-            document.getElementById('winningPositions').textContent = winningPositions;
+            document.getElementById('winningPositions').textContent = portfolioData.profitablePositions || 0;
 
             // Risk exposure
-            const positions = portfolioData.positions || [];
-            const shortPositions = positions.filter(p => p.type === 'SHORT').length;
-            const longPositions = positions.filter(p => p.type === 'LONG').length;
-            
-            document.getElementById('shortPositions').textContent = shortPositions;
-            document.getElementById('longPositions').textContent = longPositions;
-            
-            const riskLevel = shortPositions > longPositions ? 'High' : longPositions > shortPositions ? 'Low' : 'Medium';
-            document.getElementById('riskExposure').textContent = riskLevel;
+            document.getElementById('shortPositions').textContent = portfolioData.shortPositions || 0;
+            document.getElementById('longPositions').textContent = portfolioData.longPositions || 0;
+            document.getElementById('riskExposure').textContent = portfolioData.riskLevel || 'Medium';
 
             // Trade duration
             if (portfolioData.entryTime) {
@@ -814,7 +819,7 @@
                 trendElement.innerHTML = '<i class="fas fa-arrow-down"></i><span>BEARISH TREND</span>';
             }
 
-            // Progress bar
+            // Progress bar (relative to target)
             const progressPercent = Math.min(Math.max((portfolioReturn + 10) / 25 * 100, 0), 100);
             document.getElementById('progressFill').style.width = `${progressPercent}%`;
             document.getElementById('progressPercent').textContent = `${progressPercent.toFixed(1)}%`;
@@ -823,13 +828,13 @@
         function updatePositions() {
             const positions = portfolioData.positions || [];
             
-            // Top performers
+            // Top performers (profitable positions)
             const topPerformers = positions
                 .filter(p => p.pnl > 0)
                 .sort((a, b) => b.pnl - a.pnl)
                 .slice(0, 5);
             
-            const topPerformersHTML = topPerformers.map(pos => `
+            const topPerformersHTML = topPerformers.length > 0 ? topPerformers.map(pos => `
                 <div class="position-item">
                     <div class="position-left">
                         <div class="position-symbol">${pos.symbol}</div>
@@ -841,18 +846,17 @@
                         <div class="position-return">+${pos.return.toFixed(1)}%</div>
                     </div>
                 </div>
-            `).join('');
+            `).join('') : '<div style="text-align: center; opacity: 0.7; padding: 20px;">No profitable positions yet</div>';
             
-            document.getElementById('topPerformers').innerHTML = topPerformersHTML || 
-                '<div style="text-align: center; opacity: 0.7;">No profitable positions yet</div>';
+            document.getElementById('topPerformers').innerHTML = topPerformersHTML;
             
-            // Underperformers
+            // Underperformers (losing positions)
             const underperformers = positions
                 .filter(p => p.pnl < 0)
                 .sort((a, b) => a.pnl - b.pnl)
                 .slice(0, 5);
             
-            const underperformersHTML = underperformers.map(pos => `
+            const underperformersHTML = underperformers.length > 0 ? underperformers.map(pos => `
                 <div class="position-item">
                     <div class="position-left">
                         <div class="position-symbol">${pos.symbol}</div>
@@ -864,78 +868,63 @@
                         <div class="position-return">${pos.return.toFixed(1)}%</div>
                     </div>
                 </div>
-            `).join('');
+            `).join('') : '<div style="text-align: center; opacity: 0.7; padding: 20px;">All positions profitable!</div>';
             
-            document.getElementById('underperformers').innerHTML = underperformersHTML || 
-                '<div style="text-align: center; opacity: 0.7;">All positions profitable!</div>';
+            document.getElementById('underperformers').innerHTML = underperformersHTML;
         }
 
         function updateAlerts() {
-            const alerts = [];
-            const totalPnl = portfolioData.totalPnl || 0;
-            const positions = portfolioData.positions || [];
+            let alertsHTML = '';
             
-            // Generate dynamic alerts
-            if (totalPnl > 1000) {
-                alerts.push({
-                    type: 'success',
-                    icon: 'fas fa-chart-line',
-                    message: `🎉 Portfolio up ${totalPnl.toFixed(2)}! Strong performance detected.`,
-                    color: '#00ff88'
-                });
-            } else if (totalPnl < -1000) {
-                alerts.push({
-                    type: 'warning',
-                    icon: 'fas fa-exclamation-triangle',
-                    message: `⚠️ Portfolio down ${Math.abs(totalPnl).toFixed(2)}. Consider risk management.`,
-                    color: '#ff8800'
-                });
-            }
-            
-            // Check for big movers
-            const bigMovers = positions.filter(p => Math.abs(p.return) > 5);
-            if (bigMovers.length > 0) {
-                alerts.push({
-                    type: 'info',
-                    icon: 'fas fa-bolt',
-                    message: `⚡ ${bigMovers.length} positions moving >5%. High volatility detected.`,
-                    color: '#00ccff'
+            // Check for SuperTrend alerts from data
+            if (portfolioData.supertrendAlerts && portfolioData.supertrendAlerts.length > 0) {
+                portfolioData.supertrendAlerts.slice(0, 5).forEach(alert => {
+                    let alertColor = '#ff8800';
+                    let alertIcon = 'fas fa-info-circle';
+                    
+                    if (alert.type === 'supertrend_confirm') {
+                        alertColor = '#00ff88';
+                        alertIcon = 'fas fa-chart-line';
+                    } else if (alert.type === 'supertrend_warning') {
+                        alertColor = '#ff0080';
+                        alertIcon = 'fas fa-exclamation-triangle';
+                    }
+                    
+                    alertsHTML += `
+                        <div class="alert-item">
+                            <div class="alert-icon" style="background: rgba(${hexToRgb(alertColor)}, 0.2); color: ${alertColor};">
+                                <i class="${alertIcon}"></i>
+                            </div>
+                            <div>${alert.message}</div>
+                        </div>
+                    `;
                 });
             }
             
-            // SuperTrend signal (simulated)
-            if (Math.random() > 0.7) {
-                alerts.push({
-                    type: 'signal',
-                    icon: 'fas fa-crosshairs',
-                    message: `📈 4H SuperTrend signal: Potential entry opportunity detected on ${positions[0]?.symbol || 'MRVL'}.`,
-                    color: '#ff0080'
-                });
-            }
-            
-            const alertsHTML = alerts.map(alert => `
-                <div class="alert-item">
-                    <div class="alert-icon" style="background: rgba(${hexToRgb(alert.color)}, 0.2); color: ${alert.color};">
-                        <i class="${alert.icon}"></i>
+            // Add system status if no alerts
+            if (!alertsHTML) {
+                alertsHTML = `
+                    <div class="alert-item">
+                        <div class="alert-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div><strong>System Status:</strong> All systems operational. Monitoring ${portfolioData.totalPositions || 50} positions.</div>
                     </div>
-                    <div>${alert.message}</div>
-                </div>
-            `).join('');
+                `;
+            }
             
-            document.getElementById('tradingAlerts').innerHTML = alertsHTML || `
-                <div class="alert-item">
-                    <div class="alert-icon">
-                        <i class="fas fa-info-circle"></i>
-                    </div>
-                    <div><strong>System Status:</strong> All systems operational. Monitoring markets...</div>
-                </div>
-            `;
+            document.getElementById('tradingAlerts').innerHTML = alertsHTML;
         }
 
         function hexToRgb(hex) {
-            const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-            if (!result) return '255,255,255';
-            return `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}`;
+            // Handle color names
+            const colorMap = {
+                '#00ff88': '0, 255, 136',
+                '#ff8800': '255, 136, 0',
+                '#ff0080': '255, 0, 128',
+                '#00ccff': '0, 204, 255'
+            };
+            return colorMap[hex] || '255, 255, 255';
         }
 
         function startCountdown() {
@@ -1011,7 +1000,7 @@
                             callbacks: {
                                 label: function(context) {
                                     const usd = context.parsed.y;
-                                    const zar = usd * USD_TO_ZAR;
+                                    const zar = usd * (portfolioData.usdToZar || 18.5);
                                     return [
                                         `P&L: ${usd.toLocaleString()}`,
                                         `P&L: R${zar.toLocaleString()}`
@@ -1057,7 +1046,10 @@
         }
 
         function updateChart(history) {
-            if (!pnlChart || !history || history.length === 0) return;
+            if (!pnlChart || !history || history.length === 0) {
+                console.log('No chart or history data available');
+                return;
+            }
             
             const activeFilter = document.querySelector('.time-filter.active').dataset.period;
             let filteredHistory = history;
@@ -1089,21 +1081,11 @@
             pnlChart.update('none');
         }
 
-        // Add some interactive features
-        document.addEventListener('click', function(e) {
-            if (e.target.classList.contains('footer-link')) {
-                e.preventDefault();
-                
-                if (e.target.textContent.includes('Export')) {
-                    exportData();
-                } else if (e.target.textContent.includes('Settings')) {
-                    showSettings();
-                }
-            }
-        });
-
         function exportData() {
-            if (!portfolioData.positions) return;
+            if (!portfolioData.positions) {
+                alert('No data available to export');
+                return;
+            }
             
             const csvContent = [
                 ['Symbol', 'Company', 'Type', 'Current Price', 'Entry Price', 'Return %', 'P&L USD', 'P&L ZAR'],
@@ -1115,7 +1097,7 @@
                     pos.entryPrice,
                     pos.return.toFixed(2),
                     pos.pnl.toFixed(2),
-                    (pos.pnl * USD_TO_ZAR).toFixed(2)
+                    pos.pnlZar.toFixed(2)
                 ])
             ].map(row => row.join(',')).join('\n');
             
@@ -1129,22 +1111,8 @@
         }
 
         function showSettings() {
-            alert('Settings panel coming soon! Features will include:\n• Custom alerts\n• Currency preferences\n• Update intervals\n• Risk management tools');
+            alert('Settings panel:\n• Currency: USD/ZAR (Rate: ' + (portfolioData.usdToZar || 18.5) + ')\n• Update Interval: 5 minutes\n• Risk Level: ' + (portfolioData.riskLevel || 'Medium') + '\n• Total Positions: ' + (portfolioData.totalPositions || 50));
         }
-
-        // Simulate some real-time data updates
-        setInterval(() => {
-            // Add small random fluctuations to make it feel more alive
-            const elements = document.querySelectorAll('.position-pnl');
-            elements.forEach(el => {
-                if (Math.random() > 0.95) { // 5% chance
-                    el.style.animation = 'pulse 0.5s ease-in-out';
-                    setTimeout(() => {
-                        el.style.animation = '';
-                    }, 500);
-                }
-            });
-        }, 2000);
 
         // Add keyboard shortcuts
         document.addEventListener('keydown', function(e) {
@@ -1161,6 +1129,19 @@
                 }
             }
         });
+
+        // Simulate real-time updates for visual appeal
+        setInterval(() => {
+            const elements = document.querySelectorAll('.position-pnl');
+            elements.forEach(el => {
+                if (Math.random() > 0.98) { // 2% chance
+                    el.style.animation = 'pulse 0.5s ease-in-out';
+                    setTimeout(() => {
+                        el.style.animation = '';
+                    }, 500);
+                }
+            });
+        }, 2000);
     </script>
 </body>
 </html>
