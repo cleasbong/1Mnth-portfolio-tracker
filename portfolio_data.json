@@ -1,15 +1,11 @@
 {
-  "totalPnl": -467.28,
+  "totalPnl": -48.49,
   "winRate": 18.0,
   "avgReturn": -0.5,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-28T09:01:04.003902",
-  "entryTime": "2025-05-28T09:01:04.003902",
+  "lastUpdate": "2025-05-28T09:02:01.473483",
+  "entryTime": "2025-05-28T09:02:01.473483",
   "history": [
-    {
-      "time": "05/27 06:21",
-      "pnl": 103.33
-    },
     {
       "time": "05/27 06:27",
       "pnl": 101.67
@@ -205,6 +201,10 @@
     {
       "time": "05/28 09:01",
       "pnl": -467.28
+    },
+    {
+      "time": "05/28 09:02",
+      "pnl": -48.49
     }
   ],
   "positions": [
@@ -212,9 +212,9 @@
       "symbol": "ZEAL.CO",
       "company": "Zealand Pharma A/S",
       "type": "LONG",
-      "return": 3.3,
-      "pnl": 67.8,
-      "currentPrice": 454.8999938964844,
+      "return": 2.7,
+      "pnl": 5.44,
+      "currentPrice": 452.0,
       "entryPrice": 440.20001220703125
     },
     {
@@ -222,7 +222,7 @@
       "company": "SoftBank Corp.",
       "type": "LONG",
       "return": 1.7,
-      "pnl": 35.26,
+      "pnl": 3.53,
       "currentPrice": 222.60000610351562,
       "entryPrice": 218.8000030517578
     },
@@ -231,7 +231,7 @@
       "company": "FedEx Corporation",
       "type": "LONG",
       "return": 1.5,
-      "pnl": 29.71,
+      "pnl": 2.97,
       "currentPrice": 219.75999450683594,
       "entryPrice": 216.58999633789062
     },
@@ -240,7 +240,7 @@
       "company": "SCSK Corporation",
       "type": "LONG",
       "return": 1.3,
-      "pnl": 26.73,
+      "pnl": 2.67,
       "currentPrice": 4309.0,
       "entryPrice": 4253.0
     },
@@ -249,7 +249,7 @@
       "company": "Dollarama Inc.",
       "type": "LONG",
       "return": 1.5,
-      "pnl": 24.53,
+      "pnl": 2.45,
       "currentPrice": 174.72999572753906,
       "entryPrice": 172.1300048828125
     },
@@ -258,7 +258,7 @@
       "company": "Mitsui Fudosan Co., Ltd.",
       "type": "LONG",
       "return": 0.6,
-      "pnl": 11.79,
+      "pnl": 1.18,
       "currentPrice": 1386.0,
       "entryPrice": 1378.0
     },
@@ -267,7 +267,7 @@
       "company": "UnitedHealth Group",
       "type": "SHORT",
       "return": 0.2,
-      "pnl": 3.64,
+      "pnl": 0.36,
       "currentPrice": 295.010009765625,
       "entryPrice": 295.5400085449219
     },
@@ -276,7 +276,7 @@
       "company": "Barrick Gold Corporation",
       "type": "SHORT",
       "return": 0.1,
-      "pnl": 2.33,
+      "pnl": 0.23,
       "currentPrice": 26.149999618530273,
       "entryPrice": 26.18000030517578
     },
@@ -285,8 +285,8 @@
       "company": "Rockwool A/S",
       "type": "SHORT",
       "return": 0.0,
-      "pnl": 0.65,
-      "currentPrice": 313.1000061035156,
+      "pnl": 0.03,
+      "currentPrice": 313.1499938964844,
       "entryPrice": 313.20001220703125
     },
     {
@@ -527,9 +527,9 @@
       "symbol": "EURTRY=X",
       "company": "EUR/TRY",
       "type": "LONG",
-      "return": -0.4,
-      "pnl": -6.33,
-      "currentPrice": 44.18865966796875,
+      "return": -0.3,
+      "pnl": -0.56,
+      "currentPrice": 44.20640182495117,
       "entryPrice": 44.34989929199219
     },
     {
@@ -537,7 +537,7 @@
       "company": "Tyson Foods, Inc.",
       "type": "SHORT",
       "return": -0.5,
-      "pnl": -9.5,
+      "pnl": -0.95,
       "currentPrice": 55.814998626708984,
       "entryPrice": 55.55500030517578
     },
@@ -546,7 +546,7 @@
       "company": "Coles Group Limited",
       "type": "LONG",
       "return": -0.7,
-      "pnl": -14.0,
+      "pnl": -1.4,
       "currentPrice": 21.600000381469727,
       "entryPrice": 21.75
     },
@@ -555,7 +555,7 @@
       "company": "Franco-Nevada Corporation",
       "type": "SHORT",
       "return": -1.0,
-      "pnl": -19.3,
+      "pnl": -1.93,
       "currentPrice": 232.57000732421875,
       "entryPrice": 230.3800048828125
     },
@@ -564,7 +564,7 @@
       "company": "U-Haul Holding Company",
       "type": "SHORT",
       "return": -1.4,
-      "pnl": -27.51,
+      "pnl": -2.75,
       "currentPrice": 62.84000015258789,
       "entryPrice": 62.0
     },
@@ -573,7 +573,7 @@
       "company": "Enact Holdings, Inc.",
       "type": "SHORT",
       "return": -1.6,
-      "pnl": -32.34,
+      "pnl": -3.23,
       "currentPrice": 35.709999084472656,
       "entryPrice": 35.150001525878906
     },
@@ -581,9 +581,9 @@
       "symbol": "SAAB-B.ST",
       "company": "Saab AB",
       "type": "SHORT",
-      "return": -2.1,
-      "pnl": -33.96,
-      "currentPrice": 485.79998779296875,
+      "return": -2.4,
+      "pnl": -3.86,
+      "currentPrice": 487.1499938964844,
       "entryPrice": 475.8500061035156
     },
     {
@@ -591,7 +591,7 @@
       "company": "Sempra Energy",
       "type": "SHORT",
       "return": -2.1,
-      "pnl": -42.73,
+      "pnl": -4.27,
       "currentPrice": 20.860000610351562,
       "entryPrice": 20.43000030517578
     },
@@ -600,7 +600,7 @@
       "company": "Brookfield Renewable Partners",
       "type": "SHORT",
       "return": -2.1,
-      "pnl": -43.33,
+      "pnl": -4.33,
       "currentPrice": 33.02000045776367,
       "entryPrice": 32.33000183105469
     },
@@ -609,7 +609,7 @@
       "company": "Citizens Financial Group",
       "type": "SHORT",
       "return": -2.2,
-      "pnl": -45.41,
+      "pnl": -4.54,
       "currentPrice": 40.45500183105469,
       "entryPrice": 39.56999969482422
     },
@@ -618,7 +618,7 @@
       "company": "Agilent Technologies",
       "type": "SHORT",
       "return": -2.6,
-      "pnl": -52.19,
+      "pnl": -5.22,
       "currentPrice": 111.33000183105469,
       "entryPrice": 108.54000091552734
     },
@@ -627,7 +627,7 @@
       "company": "Avantor, Inc.",
       "type": "SHORT",
       "return": -3.7,
-      "pnl": -74.39,
+      "pnl": -7.44,
       "currentPrice": 13.154999732971191,
       "entryPrice": 12.6899995803833
     },
@@ -636,7 +636,7 @@
       "company": "Texas Instruments",
       "type": "SHORT",
       "return": -3.9,
-      "pnl": -79.9,
+      "pnl": -7.99,
       "currentPrice": 183.24899291992188,
       "entryPrice": 176.30999755859375
     },
@@ -645,7 +645,7 @@
       "company": "Bio-Techne Corporation",
       "type": "SHORT",
       "return": -4.1,
-      "pnl": -83.78,
+      "pnl": -8.38,
       "currentPrice": 48.70000076293945,
       "entryPrice": 46.77000045776367
     },
@@ -654,7 +654,7 @@
       "company": "Marvell Technology, Inc.",
       "type": "SHORT",
       "return": -5.2,
-      "pnl": -105.05,
+      "pnl": -10.51,
       "currentPrice": 63.81999969482422,
       "entryPrice": 60.68000030517578
     }
