@@ -1,15 +1,11 @@
 {
-  "totalPnl": -48.49,
+  "totalPnl": -49.18,
   "winRate": 18.0,
   "avgReturn": -0.5,
   "totalPositions": 50,
-  "lastUpdate": "2025-05-28T09:02:01.473483",
-  "entryTime": "2025-05-28T09:02:01.473483",
+  "lastUpdate": "2025-05-28T09:04:45.354787",
+  "entryTime": "2025-05-28T09:04:45.354787",
   "history": [
-    {
-      "time": "05/27 06:27",
-      "pnl": 101.67
-    },
     {
       "time": "05/27 06:32",
       "pnl": 101.31
@@ -205,6 +201,10 @@
     {
       "time": "05/28 09:02",
       "pnl": -48.49
+    },
+    {
+      "time": "05/28 09:04",
+      "pnl": -49.18
     }
   ],
   "positions": [
@@ -212,9 +212,9 @@
       "symbol": "ZEAL.CO",
       "company": "Zealand Pharma A/S",
       "type": "LONG",
-      "return": 2.7,
-      "pnl": 5.44,
-      "currentPrice": 452.0,
+      "return": 2.4,
+      "pnl": 4.89,
+      "currentPrice": 450.79998779296875,
       "entryPrice": 440.20001220703125
     },
     {
@@ -263,6 +263,15 @@
       "entryPrice": 1378.0
     },
     {
+      "symbol": "ROCK-B.CO",
+      "company": "Rockwool A/S",
+      "type": "SHORT",
+      "return": 0.5,
+      "pnl": 1.04,
+      "currentPrice": 311.6000061035156,
+      "entryPrice": 313.20001220703125
+    },
+    {
       "symbol": "UNH",
       "company": "UnitedHealth Group",
       "type": "SHORT",
@@ -279,15 +288,6 @@
       "pnl": 0.23,
       "currentPrice": 26.149999618530273,
       "entryPrice": 26.18000030517578
-    },
-    {
-      "symbol": "ROCK-B.CO",
-      "company": "Rockwool A/S",
-      "type": "SHORT",
-      "return": 0.0,
-      "pnl": 0.03,
-      "currentPrice": 313.1499938964844,
-      "entryPrice": 313.20001220703125
     },
     {
       "symbol": "BDEV.L",
@@ -528,8 +528,8 @@
       "company": "EUR/TRY",
       "type": "LONG",
       "return": -0.3,
-      "pnl": -0.56,
-      "currentPrice": 44.20640182495117,
+      "pnl": -0.53,
+      "currentPrice": 44.21540069580078,
       "entryPrice": 44.34989929199219
     },
     {
@@ -578,15 +578,6 @@
       "entryPrice": 35.150001525878906
     },
     {
-      "symbol": "SAAB-B.ST",
-      "company": "Saab AB",
-      "type": "SHORT",
-      "return": -2.4,
-      "pnl": -3.86,
-      "currentPrice": 487.1499938964844,
-      "entryPrice": 475.8500061035156
-    },
-    {
       "symbol": "SREA",
       "company": "Sempra Energy",
       "type": "SHORT",
@@ -612,6 +603,15 @@
       "pnl": -4.54,
       "currentPrice": 40.45500183105469,
       "entryPrice": 39.56999969482422
+    },
+    {
+      "symbol": "SAAB-B.ST",
+      "company": "Saab AB",
+      "type": "SHORT",
+      "return": -3.1,
+      "pnl": -5.03,
+      "currentPrice": 490.6000061035156,
+      "entryPrice": 475.8500061035156
     },
     {
       "symbol": "A",
