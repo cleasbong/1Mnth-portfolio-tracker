@@ -6,15 +6,9 @@
   "portfolioReturn": -0.58,
   "totalPositions": 50,
   "profitablePositions": 16,
-  "lastUpdate": "2025-05-31T00:10:46.856016",
-  "entryTime": "2025-05-31T00:10:46.856016",
+  "lastUpdate": "2025-05-31T00:16:15.951327",
+  "entryTime": "2025-05-31T00:16:15.951327",
   "history": [
-    {
-      "time": "2025-05-30T12:24:08.907876",
-      "pnl": -84.66,
-      "portfolio_return": -0.85,
-      "volatility": 2.78
-    },
     {
       "time": "2025-05-30T12:29:30.455539",
       "pnl": -80.88,
@@ -608,6 +602,12 @@
       "pnl": -57.8,
       "portfolio_return": -0.58,
       "volatility": 2.62
+    },
+    {
+      "time": "2025-05-31T00:16:15.951327",
+      "pnl": -57.8,
+      "portfolio_return": -0.58,
+      "volatility": 2.62
     }
   ],
   "dailyHistory": [
@@ -812,7 +812,7 @@
       "currentPrice": 13.164999961853027,
       "entryPrice": 14.5649995803833,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:26.992605"
+      "lastUpdated": "2025-05-31T00:15:55.682074"
     },
     {
       "symbol": "KGF.L",
@@ -824,7 +824,7 @@
       "currentPrice": 277.6000061035156,
       "entryPrice": 296.79998779296875,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:31.424810"
+      "lastUpdated": "2025-05-31T00:15:59.829548"
     },
     {
       "symbol": "9719.T",
@@ -836,7 +836,7 @@
       "currentPrice": 4391.0,
       "entryPrice": 4253.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:33.829129"
+      "lastUpdated": "2025-05-31T00:16:02.353450"
     },
     {
       "symbol": "GET.PA",
@@ -848,7 +848,7 @@
       "currentPrice": 16.850000381469727,
       "entryPrice": 17.40999984741211,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:28.172441"
+      "lastUpdated": "2025-05-31T00:15:56.854688"
     },
     {
       "symbol": "ZEAL.CO",
@@ -860,7 +860,7 @@
       "currentPrice": 453.5,
       "entryPrice": 440.20001220703125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:36.394510"
+      "lastUpdated": "2025-05-31T00:16:04.813214"
     },
     {
       "symbol": "UHR.SW",
@@ -872,7 +872,7 @@
       "currentPrice": 138.5500030517578,
       "entryPrice": 141.60000610351562,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:34.510890"
+      "lastUpdated": "2025-05-31T00:16:02.985779"
     },
     {
       "symbol": "DOL.TO",
@@ -884,7 +884,7 @@
       "currentPrice": 176.5,
       "entryPrice": 172.1300048828125,
       "investmentAmount": 162.41346407617192,
-      "lastUpdated": "2025-05-31T00:10:46.518081"
+      "lastUpdated": "2025-05-31T00:16:15.621083"
     },
     {
       "symbol": "9434.T",
@@ -896,7 +896,7 @@
       "currentPrice": 221.39999389648438,
       "entryPrice": 218.8000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:44.071499"
+      "lastUpdated": "2025-05-31T00:16:13.148734"
     },
     {
       "symbol": "8801.T",
@@ -908,7 +908,7 @@
       "currentPrice": 1390.0,
       "entryPrice": 1378.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:36.135003"
+      "lastUpdated": "2025-05-31T00:16:04.520755"
     },
     {
       "symbol": "MRVL",
@@ -920,7 +920,7 @@
       "currentPrice": 60.189998626708984,
       "entryPrice": 60.68000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:27.608053"
+      "lastUpdated": "2025-05-31T00:15:56.270162"
     },
     {
       "symbol": "FDX",
@@ -932,7 +932,7 @@
       "currentPrice": 218.10000610351562,
       "entryPrice": 216.58999633789062,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:34.128417"
+      "lastUpdated": "2025-05-31T00:16:02.660844"
     },
     {
       "symbol": "ROCK-B.CO",
@@ -944,7 +944,7 @@
       "currentPrice": 311.3500061035156,
       "entryPrice": 313.20001220703125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:30.365929"
+      "lastUpdated": "2025-05-31T00:15:58.934222"
     },
     {
       "symbol": "SBRY.L",
@@ -956,7 +956,7 @@
       "currentPrice": 285.3999938964844,
       "entryPrice": 286.6000061035156,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:26.694760"
+      "lastUpdated": "2025-05-31T00:15:55.362224"
     },
     {
       "symbol": "MRK.DE",
@@ -968,7 +968,7 @@
       "currentPrice": 115.5,
       "entryPrice": 115.9000015258789,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:32.323466"
+      "lastUpdated": "2025-05-31T00:16:00.781778"
     },
     {
       "symbol": "BNZL.L",
@@ -980,7 +980,7 @@
       "currentPrice": 2376.0,
       "entryPrice": 2382.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:42.086985"
+      "lastUpdated": "2025-05-31T00:16:05.720632"
     },
     {
       "symbol": "EURTRY=X",
@@ -992,7 +992,7 @@
       "currentPrice": 44.47869873046875,
       "entryPrice": 44.34989929199219,
       "investmentAmount": 173.98542339159917,
-      "lastUpdated": "2025-05-31T00:10:43.799556"
+      "lastUpdated": "2025-05-31T00:16:12.879722"
     },
     {
       "symbol": "BDEV.L",
@@ -1028,7 +1028,7 @@
       "currentPrice": 231.1699981689453,
       "entryPrice": 230.3800048828125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:32.907201"
+      "lastUpdated": "2025-05-31T00:16:01.384749"
     },
     {
       "symbol": "ABX.TO",
@@ -1040,7 +1040,7 @@
       "currentPrice": 26.31999969482422,
       "entryPrice": 26.18000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:45.364206"
+      "lastUpdated": "2025-05-31T00:16:14.422092"
     },
     {
       "symbol": "CGCBV.HE",
@@ -1052,7 +1052,7 @@
       "currentPrice": 48.220001220703125,
       "entryPrice": 47.939998626708984,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:35.814400"
+      "lastUpdated": "2025-05-31T00:16:04.205294"
     },
     {
       "symbol": "COL.AX",
@@ -1064,7 +1064,7 @@
       "currentPrice": 21.600000381469727,
       "entryPrice": 21.75,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:46.225437"
+      "lastUpdated": "2025-05-31T00:16:15.342723"
     },
     {
       "symbol": "ACT",
@@ -1076,7 +1076,7 @@
       "currentPrice": 35.400001525878906,
       "entryPrice": 35.150001525878906,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:30.716349"
+      "lastUpdated": "2025-05-31T00:15:59.197488"
     },
     {
       "symbol": "PSN.L",
@@ -1088,7 +1088,7 @@
       "currentPrice": 1333.0,
       "entryPrice": 1323.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:29.795555"
+      "lastUpdated": "2025-05-31T00:15:58.276410"
     },
     {
       "symbol": "BEP-UN.TO",
@@ -1100,7 +1100,7 @@
       "currentPrice": 32.61000061035156,
       "entryPrice": 32.33000183105469,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:41.756560"
+      "lastUpdated": "2025-05-31T00:16:05.401056"
     },
     {
       "symbol": "SMIN.L",
@@ -1112,7 +1112,7 @@
       "currentPrice": 2154.0,
       "entryPrice": 2134.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:34.841781"
+      "lastUpdated": "2025-05-31T00:16:03.297327"
     },
     {
       "symbol": "TSN",
@@ -1124,7 +1124,7 @@
       "currentPrice": 56.15999984741211,
       "entryPrice": 55.55500030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:35.171177"
+      "lastUpdated": "2025-05-31T00:16:03.598429"
     },
     {
       "symbol": "GFTU.L",
@@ -1136,7 +1136,7 @@
       "currentPrice": 1010.5999755859375,
       "entryPrice": 997.5999755859375,
       "investmentAmount": 182.71514708569342,
-      "lastUpdated": "2025-05-31T00:10:43.269024"
+      "lastUpdated": "2025-05-31T00:16:06.979889"
     },
     {
       "symbol": "TSCO.L",
@@ -1148,7 +1148,7 @@
       "currentPrice": 388.0,
       "entryPrice": 382.70001220703125,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:46.856000"
+      "lastUpdated": "2025-05-31T00:16:15.951311"
     },
     {
       "symbol": "WPP.L",
@@ -1160,7 +1160,7 @@
       "currentPrice": 599.4000244140625,
       "entryPrice": 591.2000122070312,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:32.618723"
+      "lastUpdated": "2025-05-31T00:16:01.104259"
     },
     {
       "symbol": "AED.BR",
@@ -1172,7 +1172,7 @@
       "currentPrice": 66.5,
       "entryPrice": 65.55000305175781,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:27.296423"
+      "lastUpdated": "2025-05-31T00:15:55.984648"
     },
     {
       "symbol": "SAAB-B.ST",
@@ -1184,7 +1184,7 @@
       "currentPrice": 484.54998779296875,
       "entryPrice": 475.8500061035156,
       "investmentAmount": 162.41346407617192,
-      "lastUpdated": "2025-05-31T00:10:44.720301"
+      "lastUpdated": "2025-05-31T00:16:13.783494"
     },
     {
       "symbol": "RY4C.DE",
@@ -1196,7 +1196,7 @@
       "currentPrice": 24.190000534057617,
       "entryPrice": 23.799999237060547,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:33.527376"
+      "lastUpdated": "2025-05-31T00:16:02.054760"
     },
     {
       "symbol": "TW.L",
@@ -1208,7 +1208,7 @@
       "currentPrice": 119.55000305175781,
       "entryPrice": 117.3499984741211,
       "investmentAmount": 182.71514708569342,
-      "lastUpdated": "2025-05-31T00:10:45.960110"
+      "lastUpdated": "2025-05-31T00:16:15.049287"
     },
     {
       "symbol": "ADP.PA",
@@ -1220,7 +1220,7 @@
       "currentPrice": 118.0999984741211,
       "entryPrice": 116.0999984741211,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:32.011270"
+      "lastUpdated": "2025-05-31T00:16:00.481960"
     },
     {
       "symbol": "AVTR",
@@ -1232,7 +1232,7 @@
       "currentPrice": 12.90999984741211,
       "entryPrice": 12.6899995803833,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:42.959449"
+      "lastUpdated": "2025-05-31T00:16:06.632026"
     },
     {
       "symbol": "CFG",
@@ -1244,7 +1244,7 @@
       "currentPrice": 40.349998474121094,
       "entryPrice": 39.56999969482422,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:43.539207"
+      "lastUpdated": "2025-05-31T00:16:07.265772"
     },
     {
       "symbol": "UNH",
@@ -1256,7 +1256,7 @@
       "currentPrice": 301.9100036621094,
       "entryPrice": 295.5400085449219,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:31.100045"
+      "lastUpdated": "2025-05-31T00:15:59.520510"
     },
     {
       "symbol": "ENR.DE",
@@ -1268,7 +1268,7 @@
       "currentPrice": 85.5,
       "entryPrice": 83.30000305175781,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:30.058871"
+      "lastUpdated": "2025-05-31T00:15:58.632667"
     },
     {
       "symbol": "LDO.MI",
@@ -1280,7 +1280,7 @@
       "currentPrice": 54.220001220703125,
       "entryPrice": 52.779998779296875,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:41.443930"
+      "lastUpdated": "2025-05-31T00:16:05.100340"
     },
     {
       "symbol": "IP.MI",
@@ -1292,7 +1292,7 @@
       "currentPrice": 34.34000015258789,
       "entryPrice": 33.400001525878906,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:44.404320"
+      "lastUpdated": "2025-05-31T00:16:13.446476"
     },
     {
       "symbol": "HO.PA",
@@ -1304,7 +1304,7 @@
       "currentPrice": 267.3999938964844,
       "entryPrice": 259.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:31.727029"
+      "lastUpdated": "2025-05-31T00:16:00.167559"
     },
     {
       "symbol": "A",
@@ -1316,7 +1316,7 @@
       "currentPrice": 111.91999816894531,
       "entryPrice": 108.54000091552734,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:45.648942"
+      "lastUpdated": "2025-05-31T00:16:14.701631"
     },
     {
       "symbol": "UHAL",
@@ -1328,7 +1328,7 @@
       "currentPrice": 64.0,
       "entryPrice": 62.0,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:42.378182"
+      "lastUpdated": "2025-05-31T00:16:05.997798"
     },
     {
       "symbol": "RS1.L",
@@ -1340,7 +1340,7 @@
       "currentPrice": 569.5,
       "entryPrice": 551.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:42.701865"
+      "lastUpdated": "2025-05-31T00:16:06.369990"
     },
     {
       "symbol": "TECH",
@@ -1352,7 +1352,7 @@
       "currentPrice": 48.400001525878906,
       "entryPrice": 46.77000045776367,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:33.241812"
+      "lastUpdated": "2025-05-31T00:16:01.669318"
     },
     {
       "symbol": "TXN",
@@ -1364,7 +1364,7 @@
       "currentPrice": 182.85000610351562,
       "entryPrice": 176.30999755859375,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:29.399222"
+      "lastUpdated": "2025-05-31T00:15:57.957456"
     },
     {
       "symbol": "SREA",
@@ -1376,7 +1376,7 @@
       "currentPrice": 21.190000534057617,
       "entryPrice": 20.43000030517578,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:27.881762"
+      "lastUpdated": "2025-05-31T00:15:56.552864"
     },
     {
       "symbol": "BANB.SW",
@@ -1388,7 +1388,7 @@
       "currentPrice": 51.650001525878906,
       "entryPrice": 49.7599983215332,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:45.029467"
+      "lastUpdated": "2025-05-31T00:16:14.094281"
     },
     {
       "symbol": "LAND.L",
@@ -1400,7 +1400,7 @@
       "currentPrice": 633.0,
       "entryPrice": 609.5,
       "investmentAmount": 203.0168300952149,
-      "lastUpdated": "2025-05-31T00:10:35.506473"
+      "lastUpdated": "2025-05-31T00:16:03.916097"
     }
   ]
 }
